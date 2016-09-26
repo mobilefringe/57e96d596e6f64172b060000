@@ -47,7 +47,7 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
+        setEndPoint('http://pencentre.mallmaverick.com/api/v2/thepencentre/all.json');
         setSocialEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
     </script>
     
