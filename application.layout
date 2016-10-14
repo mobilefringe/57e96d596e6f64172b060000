@@ -47,8 +47,8 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://pencentre.mallmaverick.com/api/v2/thepencentre/all.json');
-        setSocialEndPoint('http://pencentre.mallmaverick.com/api/v2/thepencentre/social.json')
+        setEndPoint('http://thepencentre.mallmaverick.com/api/v2/thepencentre/all.json');
+        setSocialEndPoint('http://thepencentre.mallmaverick.com/api/v2/thepencentre/social.json')
     </script>
     
      <script>
