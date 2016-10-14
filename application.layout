@@ -128,10 +128,9 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/hours">Shopping Hours</a></li>
-						<li class="news_link"><a href="/news">News</a></li>
+						<li><a href="/hours">Directions</a></li>
 						<li><a href="/tourist_info">Tourist Info</a></li>
-						<li><a href="http://prettygreathsc.com" target="_blank">Redevelopment</a></li>
+						<li><a href="http://prettygreathsc.com" target="_blank">Virtual Tour</a></li>
 					</ul>
                 </li>
                 <li>
@@ -141,9 +140,10 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/contact_us">Contact Us</a></li>
-						<li><a href="/leasing">Leasing</a></li>
-						<li><a href="/security">Security</a></li>
+						<li><a href="/hours">Shopping Hours</a></li>
+						<li><a href="/leasing">Contact Us</a></li>
+						<li><a href="/security">Leasing</a></li>
+							<li><a href="/security">Security</a></li>
 					</ul>
                 </li>
             </ul>
