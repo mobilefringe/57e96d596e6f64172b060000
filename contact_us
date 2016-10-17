@@ -4,16 +4,16 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/hours">SHOPPING HOURS</a></h5>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5 class="active_heading">CONTACT US</h5>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/leasing">LEASING</a></h5>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/security">SECURITY</a></h5>
         </div>
     </div>
