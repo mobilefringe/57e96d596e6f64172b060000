@@ -4,26 +4,24 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3">
-            <h5><a href="/gift_cards">GIFT CARDS</a></h5>
+    
+        <div class="col-md-4 text-center">
+            <h5 class="active_heading">COMMUNITY</h5>
         </div>
-        <div class="col-md-3 text-center">
-            <h5><a href="/community">COMMUNITY</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4">
             <h5 class="active_heading">ACCESSIBILITY</h5>
         </div>
-        <div class="col-md-3">
-            <h5><a href="/consultations">CONSULTATIONS</a></h5>
+        <div class="col-md-4 text-center">
+            <h5><a href="/mallwalk">MALL WALK</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/gift_cards">Gift Cards</option>
             <option value="/community">Community</option>
             <option value="/accessibility">Accessibility</option>
-            <option value="/consultations">Consultations</option>
+            <option value="/mallwalk">Mall Walk</option>
+          
         </select>
     </h5>
 </div>
