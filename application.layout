@@ -128,9 +128,9 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1466179703000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/hours">Directions</a></li>
+						<li><a href="/directions">Directions</a></li>
 						<li><a href="/tourist_info">Tourist Info</a></li>
-						<li><a href="http://prettygreathsc.com" target="_blank">Virtual Tour</a></li>
+						<li><a href="/virtual_tour" >Virtual Tour</a></li>
 					</ul>
                 </li>
                 <li>
