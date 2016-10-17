@@ -1,0 +1,142 @@
+<div class="newsletter_banner text-center">
+    <h3>NEWSLETTER SIGN-UP</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="margin_20"></div>
+
+     <p><strong><img alt="header" class="uploaded-img-responsive" height="220" src="https://mallmaverick.com/system/pages/images/000/000/650/original/SubscribeToWin-header2.jpg?1451933284" width="538"></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Sign up today and receive the latest news, sales, events, fashion trends and preview the latest videos from StyleTV.</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>PLUS!&nbsp; Automatically be entered to win a $25 Pen Centre Gift Card, drawn monthly!</strong></p>
+
+<p>&nbsp;</p>
+
+<script language="javascript" src="http://www.mailcrescent.com/asp/form_subscribe.html?group_num=180&amp;account_num=44&amp;form_key=6dpzl4dn4jrz"></script><form name="form_subscribe" method="post" action="http://www.mailcrescent.com/asp/form_subscribe_process.html" class="mailcrescent_form_class" style="margin: 0px; padding: 0px;">   <input type="hidden" name="group_num" value="180">   <input type="hidden" name="account_num" value="44">   <input type="hidden" name="form_key" value="6dpzl4dn4jrz"><br>   First Name  (*)<br><input type="text" name="first_name" maxlength="128" class="mailcrescent_field_class" value=""><br>    Last Name  (*)<br><input type="text" name="last_name" maxlength="128" class="mailcrescent_field_class" value=""><br>    Postal/Zip Code  (*)<br><input type="text" name="postal_zip" maxlength="128" class="mailcrescent_field_class" value=""><br>    Mobile Number <br><input type="text" name="mobile_num" maxlength="128" class="mailcrescent_field_class" value=""><br>    How did you hear about our Monthly Draw?*<br><select name="custom_option1">   <option value="Choose">Choose   </option><option value="Heard about monthly draw: Website">Website   </option><option value="Heard about monthly draw: Facebook">Facebook   </option><option value="Heard about monthly draw: Twitter">Twitter   </option><option value="Heard about monthly draw: Billboard">Billboard   </option><option value="Heard about monthly draw: Radio">Radio   </option><option value="Heard about monthly draw: Friends or Family">Friends or Family   </option><option value="Heard about monthly draw: CAA Niagara">CAA Niagara</option></select><br>   Email Address (*)<br><input type="text" name="email_address" maxlength="128" class="mailcrescent_field_class" value=""><br><input type="checkbox" name="checkbox_consented" value="on"> I consent to receive email communications from this organization.<br><input type="checkbox" name="checkbox_privacy" value="on"> I have read and agree to the <a href="http://thepencentre.com/pages/thepencentre-privacy-policy" target="_blank">privacy policy</a>.<br>   <input type="submit" name="Subscribe" value="Subscribe" class="mailcrescent_submitbutton_class"></form>
+
+
+<p>&nbsp;</p>
+
+<h1>Unsubscribe</h1>
+
+<p>If you wish to opt out of receiving news from the Pen Centre, please unsubscribe below:</p>
+
+<p>&nbsp;</p>
+<script language="javascript" src="http://www.mailcrescent.com/asp/form_unsubscribe.html?group_num=180&amp;account_num=44&amp;form_key=6dpzl4dn4jrz"></script><form name="form_unsubscribe" method="post" action="http://www.mailcrescent.com/asp/form_unsubscribe_process.html" class="mailcrescent_form_class" style="margin: 0px; padding: 0px;">   <input type="hidden" name="group_num" value="180">   <input type="hidden" name="account_num" value="44">   <input type="hidden" name="form_key" value="6dpzl4dn4jrz">   Email Address<br><input type="text" name="email_address" maxlength="128" class="mailcrescent_field_class" value=""><br>   <input type="submit" name="Subscribe" value="Unsubscribe" class="mailcrescent_submitbutton_class"></form>
+<p>&nbsp;</p>
+
+</div>
+    <script type="text/javascript">
+        $(document).ready(function(e){
+            init(e);
+            show_content();
+        })
+    
+        
+        $("#newsletter_form").submit(function( e ) {
+        e.preventDefault();
+            if ($("#agree_newsletter_page").prop("checked") != true){
+                alert("Please agree to the receiving newsletter.");
+                $("#agree_newsletter_page").focus();
+            } else {
+                var firstName = $('#firstName_newsletter').val();
+                var lastName = $('#lastName_newsletter').val();
+                var name = firstName + " " + lastName;
+                $('#fieldName_newsletter.newletter-hidden').val(name);
+                
+                var giftcard = getCheckBoxValue('#giftcard_newsletter');
+                var contest = getCheckBoxValue('#contest_newsletter');
+                var sales = getCheckBoxValue('#sales_newsletter');
+                var advice = getCheckBoxValue('#advice_newsletter');
+                var birthday = getCheckBoxValue('#birthdayCheck');
+                $('#fieldwkdij_newsletter.newletter-hidden').val(giftcard);
+                $('#fieldwkdik_newsletter.newletter-hidden').val(contest);
+                $('#fieldwkdiu_newsletter.newletter-hidden').val(sales);
+                $('#fieldjuqp_newsletter.newletter-hidden').val(birthday);
+                $('#fieldwkddl_newsletter.newletter-hidden').val(advice);
+                visited = 100; 
+                $.cookie('visited', visited, { expires: 7 });
+                $.getJSON(
+                    "http://mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
+                  $("#newsletter_form").serialize(),
+                    function (data) {
+                        if (data.Status === 400) {
+                            alert("Please try again later.");
+                        } else { // 200
+                            console.log(data)
+                            submitToMailChimp();
+                        }
+                }); 
+                
+                
+                
+                
+                
+                
+                
+            }
+          
+        });
+        
+        function submitToMailChimp(){
+            var firstName = $('#firstName_newsletter').val();
+            var lastName = $('#lastName_newsletter').val();
+            var giftcard = getCheckBoxValue('#giftcard_newsletter');
+            var contest = getCheckBoxValue('#contest_newsletter');
+            var sales = getCheckBoxValue('#sales_newsletter');
+            var advice = getCheckBoxValue('#advice_newsletter');
+            var birthday = getCheckBoxValue('#birthdayCheck');
+            
+            $("#mce-FNAME").val(firstName)
+                $("#mce-LNAME").val(lastName)
+                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
+                $("#mce-MMERGE4").val($('#fieldBirthday_newsletter').val()) 
+                $("#mce-MMERGE5").val($('#birthdayCheck').val()) 
+                $("#mce-group[5]-5-0").val(giftcard);
+                $("#mce-group[5]-5-1").val(contest);
+                $("#mce-group[5]-5-2").val(sales);
+                $("#mce-group[5]-5-3").val(advice);
+                
+    
+                
+                
+                $.ajax({
+                    type: $("#mc-embedded-subscribe-form").attr('method'),
+                    url: $("#mc-embedded-subscribe-form").attr('action'),
+                    data: $("#mc-embedded-subscribe-form").serialize(),
+                    cache       : false,
+                    dataType    : 'json',
+                    contentType: "application/json; charset=utf-8",
+                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+                    success     : function(data) {
+                        if (data.result != "success") {
+                            window.location.href="/thank_you"
+                        } else {
+                            
+                            window.location.href="/thank_you"
+                        }
+                    }
+                })
+        }
+     
+        function getCheckBoxValue(checkbox){
+            if($(checkbox).prop('checked')){
+                return "1";
+            }else {
+                return "0";
+            }
+        }
+        $(function() {
+            var location = window.location.toString();
+            if (location.indexOf("s=1") != -1) {
+                alert("You least form request has been submitted.")
+            } else if (location.indexOf("s=0") != -1) {
+                alert("Please try to submit the form later.")
+            }
+        });
+    </script>
+    
