@@ -9,10 +9,10 @@
             <h5><a href="/directions">DIRECTIONS</a></h5>
         </div>
         <div class="col-md-4 text-center">
-            <h5 class="active_heading">TOURIST INFO</h5>
+            <h5>TOURIST INFO</h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/virtual_tour">VIRTUAL TOUR</a></h5>
+            <h5 class="active_heading">VIRTUAL TOUR</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
