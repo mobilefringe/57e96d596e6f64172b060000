@@ -5,13 +5,13 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h5 class="active_heading">DIRECTIONS</h5>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h5><a href="/tourist_info">TOURIST INFO</a></h5>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h5><a href="/virtual_tour">VIRTUAL TOUR</a></h5>
         </div>
     </div>
