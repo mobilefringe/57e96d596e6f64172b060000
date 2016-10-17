@@ -36,7 +36,7 @@
                     <img src="http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
-                        <a  class="social_link_blank" href="https://www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook/thepencentre</a> <br />
+                        <a  class="social_link_blank" href="https://www.facebook.com/thepencentre" target="_blank">Facebook/thepencentre</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
