@@ -9,10 +9,10 @@
             <h5><a href="/community">COMMUNITY</a></h5>
         </div>
         <div class="col-md-4">
-            <h5 class="active_heading">ACCESSIBILITY</h5>
+            <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
         </div>
         <div class="col-md-4 text-center">
-            <h5><a href="/mallwalk">MALL WALK</a></h5>
+            <h5 class="active_heading">MALL WALK</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
