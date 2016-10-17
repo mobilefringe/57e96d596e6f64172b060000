@@ -142,7 +142,7 @@
                     <ul class="sub_menu hidden_now">
 						<li><a href="/hours">Shopping Hours</a></li>
 						<li><a href="/contact_us">Contact Us</a></li>
-						<li><a href="/security">Leasing</a></li>
+						<li><a href="/leasing">Leasing</a></li>
 							<li><a href="/security">Security</a></li>
 					</ul>
                 </li>
