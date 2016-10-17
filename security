@@ -8,7 +8,7 @@
             <h5><a href="/hours">SHOPPING HOURS</a></h5>
         </div>
         <div class="col-md-3">
-            <h5>CONTACT US</h5>
+            <h5><a href="/contact_us">CONTACT US</a></h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/leasing">LEASING</a></h5>
