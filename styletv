@@ -4,22 +4,21 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-      
-        <div class="col-md-3 text-center">
-            <h5 class="active_heading">STYLE TV</h5>
-        </div>
         <div class="col-md-3 text-center">
             <h5><a href="/">DEVELOPMENT</a></h5>
         </div>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">STYLE TV</h5>
+        </div>
+      
        
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/gift_cards">Gift Cards</option>
-            <option value="/community">Community</option>
-            <option value="/mall_services">Mall Services</option>
-            <option value="/consultations">Consultations</option>
+            <option value="/development">Development</option>
+            <option value="/styletv">Style TV</option>
+      
         </select>
     </h5>
 </div>
