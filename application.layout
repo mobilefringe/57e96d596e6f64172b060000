@@ -59,7 +59,7 @@
        
         ga('create', '', 'auto');
         ga('send', 'pageview');
-    var mall_name = "Halifax Shopping Centre"
+    var mall_name = "The Pen Centre"
    </script>
 </head>
 
@@ -204,13 +204,13 @@
                             Follow us on social for <br />activities and news
                         </p>
                         <div class="social_icons">
-                            <a href="http://www.facebook.com/halifaxshoppingcentre" target="_blank">
+                            <a href="https://www.facebook.com/thepencentre?sk=wall" target="_blank">
                                 <span id="social_fb"></span>
                             </a>
-                            <a href="http://www.twitter.com/shopHSC" target="_blank">
+                            <a href="https://twitter.com/thepencentre" target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <a href="http://instagram.com/shophsc" target="_blank">
+                            <a href="https://www.instagram.com/thepencentre/" target="_blank">
                                 <span id="social_insta"></span>
                             </a>
                             <a href="/newsletter">
