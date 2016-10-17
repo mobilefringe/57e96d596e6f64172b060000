@@ -31,6 +31,11 @@
         <div class="row">
             <div class="col-md-12">
                 <div id="mm_page_content"></div>
+                   <div>
+                            <iframe width="100%" scrolling="no" height="500" frameborder="0" src="https://maps.google.ca/maps?q=&amp;layer=c&amp;sll=43.133588,-79.224276&amp;cid=1888705218679223746&amp;panoid=ob-blzW5p7QAAAQIt2URqw&amp;cbp=13,320.18,,0,-9.6&amp;gl=CA&amp;hl=en&amp;ie=UTF8&amp;hq=+loc:+&amp;hnear=&amp;t=m&amp;cbll=43.135514,-79.22414&amp;source=embed&amp;z=16&amp;output=svembed" marginwidth="0" marginheight="0">
+                                
+                            </iframe>
+                        </div>
             </div>
         </div>
     </div>
