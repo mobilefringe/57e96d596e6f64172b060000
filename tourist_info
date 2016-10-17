@@ -4,25 +4,24 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3 plan_visit">
-            <h5><a href="/hours">HOURS</a></h5>
+        
+        <div class="col-md-4 text-center">
+            <h5 class="active_heading">DIRECTIONS</h5>
         </div>
-        <div class="col-md-3 plan_visit">
-            <h5 class="active_heading">TOURIST INFO</h5>
+        <div class="col-md-4 text-center">
+            <h5><a href="/tourist_info">TOURIST INFO</a></h5>
         </div>
-        <div class="col-md-3 plan_visit">
-            <h5 class="news_link"><a href="/news">NEWS</a></h5>
-        </div>
-        <div class="col-md-3 plan_visit">
-            <h5><a href="http://prettygreathsc.com/categories/redevelopment%20news" target="_blank">REDEVELOPMENT</a></h5>
+        <div class="col-md-4">
+            <h5><a href="/virtual_tour">VIRTUAL TOUR</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/hours">Hours</option>
-            <option value="/news">News</option>
-            <option value="http://prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>
+            <option value="/directions">Directions</option>
+            <option value="/tourist_info">Tourist Info</option>
+            <option value="/virtual_tour">Virtual Tour</option>
+         
         </select>
     </h5>
 </div>
