@@ -79,7 +79,7 @@
         init(e);
         function renderAll (){
             var categories = getStoreCategories();
-            var stores = getStoresListByCategoryID(1702)
+            var stores = getStoresListByCategoryID(1514)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
