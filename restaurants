@@ -91,22 +91,7 @@
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
-            var coming_soon_stores = getComingSoonList();
-            var new_stores = getNewStoresList();
             
-            if (new_stores.length > 0){
-                renderGeneral("#new_store_container","#new_store_template", new_stores);
-            }
-            else{
-                $('#new_stores').hide();
-            }
-            
-             if (coming_soon_stores.length > 0){
-                renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
-            }
-            else{
-                $('#coming_soon_stores').hide();
-            }
             show_content();
             
             
