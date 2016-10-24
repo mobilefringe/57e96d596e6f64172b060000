@@ -58,11 +58,10 @@
                 <!--    </div>-->
                 <!--</div>-->
                 <p class="category_header">Categories</p>
-                <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
+                
                 <div id="category_container" class="hidden_phone">
-                    <script id="category_template" type="x-tmpl-mustache/text">
-                        <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
-                    </script>
+                    <h5 class="category_name active_cat"><a href="#" class="show_all_stores">All</a></h5>
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
                 </div>
             </div>
         </div>
@@ -86,10 +85,6 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderGeneral('#category_container', '#category_template', categories);
-            
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
             
             show_content();
