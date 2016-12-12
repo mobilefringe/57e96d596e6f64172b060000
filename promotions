@@ -81,7 +81,7 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos, "The Pen Centre);
+                renderPromotions("#promos_container","#promos_template", published_promos, "Pen Centre);
             }
             else{
                 $('#no_promos').show()
