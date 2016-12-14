@@ -79,7 +79,7 @@
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
-						<li><a href="/stores">Restaurants</a></li>
+						<li><a href="/restaurants">Restaurants</a></li>
 						<li><a href="/map">Centre Map</a></li>
 					</ul>
                         
