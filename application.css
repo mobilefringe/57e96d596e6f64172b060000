@@ -496,7 +496,7 @@ h4{
     }
     p{
         font-size: 24px;
-        color: #B1B1B1;
+        color: white;
         letter-spacing: 0.5px;
         font-family: 'Open Sans Condensed';
         text-transform: uppercase;
@@ -520,7 +520,7 @@ h4{
     }
     p{
         font-size: 24px;
-        color: #B1B1B1;
+        color: white;
         letter-spacing: 0.5px;
         font-family: 'Open Sans Condensed';
         text-transform: uppercase;
@@ -1614,7 +1614,7 @@ h4{
     }
     
     .stores_main_desc{
-        color: #B1B1B1;
+        color:white;
     }
     
     .alpha_list{
