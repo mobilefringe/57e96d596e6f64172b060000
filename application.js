@@ -132,7 +132,7 @@ function renderPromotions(container, template, collection, centre){
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
-            val.image_url = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461163897000/Logo.png";
+            val.image_url = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1480532253000/PenCentre_logo.png";
             val.store_name = mall_name;
             val.store_slug = "/"
             val.store_show = "display:none;";
