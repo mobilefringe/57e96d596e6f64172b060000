@@ -38,7 +38,7 @@ body{
     width: 100%;
     text-align: center;
     margin: 0;
-    font-family: 'Eb Garamond';
+    font-family: 'Open Sans Condensed';
     font-size:20px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
@@ -143,7 +143,7 @@ a{
 
 
 .tooltip_name{
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
     font-size:16px;
     margin-bottom: 0;
      a{
@@ -235,17 +235,17 @@ a{
 }
 
 h2{
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
     color:#467384;
 }
 
 h4{
-    font-family: 'eb garamond';
+    font-family: 'Open Sans Condensed';
     font-size: 20px;
 }
 
 .style-header{
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
 }
 
 .map_overlay{
@@ -383,7 +383,7 @@ h4{
         padding-top: 60px;
         margin-bottom: 10px;
         text-transform:uppercase;
-        font-family: 'EB Garamond';
+        font-family: 'Open Sans Condensed';
         max-width: 940px;
         margin-left: auto;
         margin-right: auto;
@@ -449,7 +449,7 @@ h4{
         letter-spacing: 4px;
         padding-top: 140px;
         margin-bottom: 10px;
-        font-family: 'EB Garamond';
+        font-family: 'Open Sans Condensed';
     }
     p{
         font-size: 24px;
@@ -492,7 +492,7 @@ h4{
         color: #b7f0f4;
         letter-spacing: 4px;
         margin-bottom: 10px;
-        font-family: 'EB Garamond';
+        font-family: 'Open Sans Condensed';
     }
     p{
         font-size: 24px;
@@ -516,7 +516,7 @@ h4{
         color: #b7f0f4;
         letter-spacing: 4px;
         margin-bottom: 10px;
-        font-family: 'EB Garamond';
+        font-family: 'Open Sans Condensed';
     }
     p{
         font-size: 24px;
@@ -795,7 +795,7 @@ h4{
 }
 #close_menu{
     font-weight: 400;
-    font-family: 'eb garamond';
+    font-family: 'Open Sans Condensed';
     display: inline-block;
     padding: 0 20px;
     cursor:pointer;
@@ -806,7 +806,7 @@ h4{
     position: relative;
     top: 10px;
     h5{
-        font-family: 'eb garamond';
+        font-family: 'Open Sans Condensed';
         font-size: 20px;
         color: #FFFFFF;
         letter-spacing: 1.5px;
@@ -824,7 +824,7 @@ h4{
     line-height: 28px;
     margin-bottom:20px;
     margin-top: 0;
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
 }
 
 .hours_container{
@@ -917,7 +917,7 @@ h4{
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
 }
 
 .store_name{
@@ -1206,7 +1206,7 @@ h4{
 .holiday_hours_home{
     font-size: 16px;
     color: #89c1c4;
-    font-family:'eb garamond';
+    font-family:'Open Sans Condensed';
     margin-bottom:10px;
     &:hover{
         color: #89c1c4;
@@ -1846,7 +1846,7 @@ h4{
     
     
     .category_header{
-        font-family:'eb garamond';
+        font-family:'Open Sans Condensed';
         color: #89c1c4;
         font-size:20px;
         text-transform: uppercase;
@@ -1857,7 +1857,7 @@ h4{
     
     .category_name a, .show_all_stores{
         font-size:16px;
-        font-family:'eb garamond';
+        font-family:'Open Sans Condensed';
         color:#424242;
         font-weight:lighter;
     }
