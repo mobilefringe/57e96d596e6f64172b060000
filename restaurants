@@ -82,7 +82,9 @@
         function renderAll (){
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
+            console.log(stores3);
             var stores1 = getStoresListByCategoryID(1515);
+            console.log(stores1);
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
             var newStoreList = _.uniq(stores, function(o){ return o.name; });
             console.log(newStoreList)
