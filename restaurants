@@ -75,6 +75,7 @@
         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
     </div>
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
