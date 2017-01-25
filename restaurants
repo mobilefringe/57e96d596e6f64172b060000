@@ -81,11 +81,12 @@
         function renderAll (){
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
+            console.log(stores3)
             var stores1 = getStoresListByCategoryID(1515);
- 
+            console.log(stores1)
           
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
-            console.log(stores)
+            // console.log(stores)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "N", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
