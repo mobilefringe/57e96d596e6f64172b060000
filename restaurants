@@ -87,9 +87,9 @@
             var newStoreList = _.uniq(stores, function(o){ return o.name; });
             console.log(newStoreList)
 
-            renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
-            renderStoreList('#store_list_container2','#store_list_template', stores, "N", "Z");
-            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
+            renderStoreList('#store_list_container','#store_list_template', newStoreList, "A", "M");
+            renderStoreList('#store_list_container2','#store_list_template', newStoreList, "N", "Z");
+            renderStoreList('#store_list_container_map','#store_list_template_map', newStoreList, "A", "Z");
             show_cat_stores();
             
             show_content();
