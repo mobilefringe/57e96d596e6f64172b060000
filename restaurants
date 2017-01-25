@@ -87,7 +87,7 @@
             
             var store_list = [];
             $.each(stores, function(key, val){
-                if($.inArray(val.name, store_list) === -1) store_list.push(stores);
+                if($.inArray(val.name, store_list) === -1) store_list.push();
             });            
  
             console.log(store_list)
