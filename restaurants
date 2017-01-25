@@ -85,7 +85,7 @@
           
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
             
-            var store_list = {};
+            var store_list = [];
             $.each(stores, function(key, val){
                 if($.inArray(val.name, store_list) === -1) store_list.push(val.name);
             });            
