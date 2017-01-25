@@ -99,7 +99,23 @@
             show_content();
             
             
-        }
+            
+            
+            
+            var store_list = {};
+            $.each(stores, function(key, val){
+                if($.inArray(val.name, store_list) === -1) {
+                    store_list[key]=val
+                }                
+                
+            });
+            var new_list = [];
+                for (var x in store_list) {
+                    new_list.push(store_list[x])
+                }
+                return new_list;    
+                console.log(new_list);
+            }
         
 		loadMallDataCached(renderAll); 
     })
