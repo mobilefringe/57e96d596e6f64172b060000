@@ -84,7 +84,7 @@
             var stores3 = getStoresListByCategoryID(1514);
             var stores1 = getStoresListByCategoryID(1515);
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
-            var newStoreList = _.uniq(stores, function(key, val){ return val.name; });
+            var newStoreList = _.uniq(stores, function(p){ return p.name; });
             console.log(newStoreList)
 
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
