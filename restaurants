@@ -63,7 +63,7 @@
                     <h5 class="category_name active_cat"><a href="#" class="show_all_stores">All</a></h5>
                     <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1514">Fast Food &amp; Specialty Food</a></h5>
                     <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1515">Restaurants</a></h5>
-                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1467">Food Court</a></h5>
+                   
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
             var stores1 = getStoresListByCategoryID(1515);
-            var stores2 = getStoresListByCategoryID(1467);
+          
             var stores = stores1.concat(stores2).concat(stores3)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "N", "Z");
