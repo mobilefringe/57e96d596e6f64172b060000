@@ -81,13 +81,15 @@
         function renderAll (){
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
-            console.log(stores3)
             var stores1 = getStoresListByCategoryID(1515);
-            console.log(stores1)
           
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
             
-            var stores_list = stores.filter(function(o){ return o.name}); 
+            var store_list = [];
+            $.each(stores, function(key, val){
+                if($.inArray(val.name, store_list) === -1) store_list.push(val.name);
+            });            
+ 
             console.log(stores_list)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "N", "Z");
