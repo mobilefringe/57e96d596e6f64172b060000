@@ -81,7 +81,9 @@
         function renderAll (){
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
+            console.log(stores3)
             var stores1 = getStoresListByCategoryID(1515);
+            console.log(stores1)
           
             var stores = stores1.concat(stores3)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
