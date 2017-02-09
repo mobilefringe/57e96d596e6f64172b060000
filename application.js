@@ -71,7 +71,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461352407000/HallifaxLogo.png";
+            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
@@ -306,7 +306,7 @@ function renderEventDetails(container, template, collection, mall_name){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461352407000/HallifaxLogo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
@@ -400,13 +400,13 @@ function renderJobDetails(container, template, collection, mall_name){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461352407000/HallifaxLogo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
         }
         if(val.store_image.indexOf('missing.png') > 0){
-            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461352407000/HallifaxLogo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
         }
         
         var show_date = new Date (val.start_date + "T04:00:00Z");
@@ -620,7 +620,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1461352407000/HallifaxLogo.png";
+            val.post_image = "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
         } else {
             val.post_image = val.image_url;
         }
