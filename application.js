@@ -561,7 +561,7 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
                 }else{
                     val.show = '';
                 }
-                val.event_image_url =  "http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/d17d8c90fe9a800df686233fab0e6569/default.jpg";
+                val.event_image_url =  "http://assets.codecloudapp.com/sites/57e96d596e6f64172b060000/image/png/1486678177000/pen.png";
                  
             }
             item_list.push(val);        
