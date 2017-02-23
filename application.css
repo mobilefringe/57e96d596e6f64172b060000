@@ -1264,6 +1264,9 @@ h4{
 
 
 @media(max-width: 768px){
+    .chat_link {
+        width: 100%;
+    }
     .giftbalance{
         float:none;
     }
