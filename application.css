@@ -32,6 +32,9 @@ body{
     padding: 10px 30px;
     bottom: 0px;
     z-index: 9;
+    &:hover{
+        color:#fff;
+    }
 }
 
 
