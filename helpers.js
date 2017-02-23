@@ -73,7 +73,7 @@ function show_content(){
         }
     })
     
-    $.get('//stc.mallmaverick.com/is_chat_available', function(data){
+    $.get('//thepencentre.mallmaverick.com/is_chat_available', function(data){
         if (data.status == false){
             $('.chat_link').hide()
             $('.chat_banner').hide()
