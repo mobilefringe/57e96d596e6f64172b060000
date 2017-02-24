@@ -260,7 +260,7 @@
             </div>
         </div>
     </section>
-    <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">HI THIS IS PEN CENTRE GUEST SERVICES.  HOW CAN WE HELP YOU?</a>
+    <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi This is Pen Centre Guest Services.  How can we help?</a>
 </body>
 
 </html>
