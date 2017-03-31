@@ -1,0 +1,74 @@
+<div class="jobs_banner text-center">
+    <h3>DEVELOPMENT</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-6 text-center">
+            <h5 class="active_heading">DEVELOPMENT</h5>
+        </div>
+        <div class="col-md-6 text-center">
+           <h5><a href="/styletv">STLYE TV</a></h5>
+        </div>
+      
+       
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/development">Development</option>
+            <option value="/styletv">Style TV</option>
+      
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="events_not_empty_section">
+                    <ul class="promotion-list" id="events_list">
+                        <script id="event_item_template" type="x-tmpl-mustache">
+                            <li class="promotion-list-item hidden-phone row">
+                                <a name="{{name}}"></a>
+                                <div class="promo-image">
+                                    <a href="../events/{{ slug }}">
+                                        <img alt="banner" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
+                                    </a>
+                                </div>
+                                <div class="promo-detail">
+                                    <div class="name">
+                                        <a href="../events/{{slug}}">
+                                            <h3>{{ name }}</h3>
+                                        </a>
+                                    </div>
+                                    <div class="dates">
+                                        {{ start_date }}
+                                    </div>
+                                    <div class="description_news">
+                                        {{{ rich_description }}}
+                                    </div>
+                                </div>
+                            </li>
+                        </script>
+                    </ul>  
+                </div>
+                <div id="events_empty_section" style="display:none;">
+                    <p>No Development posted</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e) {
+        init(e)
+        function renderPageData(){
+            renderEventsWithImgTemplate('#event_item_template','#events_list','#events_not_empty_section','#events_empty_section',getEventsList(), "development");
+            show_content()
+        }
+        
+        loadMallDataCached(renderPageData);
+    });
+</script>
