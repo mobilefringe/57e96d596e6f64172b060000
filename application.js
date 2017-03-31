@@ -363,7 +363,7 @@ function renderJobs(container, template, collection){
         
         // var show_date = new Date (val.start_date + "T04:00:00Z");
         var show_date = moment(val.start_date).tz(getPropertyTimeZone());
-        val.published_on = show_date;
+        val.published_on = show_date.format("MMM D");
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
