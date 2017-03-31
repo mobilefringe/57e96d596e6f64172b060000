@@ -605,6 +605,7 @@ function renderHomeHours(container, template, collection){
             val.h = get_day(d.getDay()) + " " + val.open_time+ " - " + val.close_time;
         } else {
             val.h = "Closed";
+            $('.hours_dot').css("background", "#cd1629");
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
