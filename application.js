@@ -323,7 +323,7 @@ function renderEventDetails(container, template, collection, mall_name){
             val.promo_image_show="display:none";
         }
         
-        ar show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
