@@ -1,0 +1,84 @@
+<div class="page-header ">
+  <h1>
+    Our Style  </h1>
+
+  <div class="submenu">
+  <ul>
+<li class="current_page_item"><a href="/style_all">All</a></li>
+  <li><a href="/style_file">Style File</a></li>
+<li><a href="/shop">Shop the Look</a></li>
+<li><a href="/attract">Opposites Attract</a></li>
+<li><a href="/spotted">Spotted</a></li>
+<li><a href="/consultations">Consultations</a></li>
+<li><a href="/setters">Style Setters</a></li>
+  </ul>
+  </div>
+  
+</div>
+
+        <div id="content_blocks">
+         <center> <img alt="loading" style="width:250px; height:250px;" src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
+     
+        </div>
+        <script id="content_block_template" type="x-tmpl-mustache">
+        <div class="froala-element">
+            <div class="{{style_icon}}">
+               
+            </div>
+            <h2 class="style-header" style="margin-bottom:30px">{{title}}</h2>
+         
+                {{{content}}}
+            <hr>
+            </div>
+        </script>
+
+
+<script>
+    var web_page_json = null;
+    $.ajax({
+        url: "../web_pages/5446b6ca6e6f6417a9000000.json",
+        dataType: 'json',
+        async: false,
+        data: "",
+        success: function(data) {
+            web_page_json = data;
+            log("website json");
+            log(web_page_json);
+        }
+    });
+    
+    renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+    function renderContentBlocks(template_id,html_id,web_page_json){
+        var item_list = [];
+        var rendered_list = [];
+        var template = $(template_id).html();
+        Mustache.parse(template);
+  
+         $.each( web_page_json.web_content_blocks , function( key, val ) {
+          if(val.tags == "style-file"){
+            item_list.push(val);
+            val.date_string = dateToString(val.publish_date);
+            val.style_icon="icon-style-file";
+
+          } else if (val.tags == "attract"){
+            item_list.push(val);
+            val.date_string = dateToString(val.publish_date);  
+            val.style_icon="icon-style-attract";
+            val.title = "Opposites Attract: " + val.title;
+          }
+        });
+      
+          item_list.sort(sortByDate);
+         $.each( item_list , function( key, val ) {
+            var item_rendered = Mustache.render(template,val);
+            rendered_list.push(item_rendered);
+          
+        });
+      
+        $(html_id).html(rendered_list.join(''));
+     
+    }
+
+
+
+</script>
