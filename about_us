@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row ">
+        <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
+            <h1 class="visible-xs" data-i18n="nav.about"><!--About Us--></h1>
+            
+            <!--PARKING INFORMATION-->
+            <a name="place_vertu"></a>
+            <h2 data-i18n="nav.subnav.place_vertu"><!--PLACE VERTU--></h2>
+            <div class="en-CA">
+                <p>about Place Vertu ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>about Place Vertu FRENCH</p>
+            </div>
+            
+            <!--LEASING INFORMATION-->
+            <a name="leasing_information"></a>
+            <h2 data-i18n="nav.subnav.leasing_information"><!--LEASING INFORMATION--></h2>
+            <div class="en-CA">
+                <p>leasing information ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>leasing information FRENCH</p>
+            </div>
+            
+            <!--CHARITIES-->
+            <a name="charities"></a>
+            <h2 data-i18n="nav.subnav.charities"><!--CHARITIES--></h2>
+            <div class="en-CA">
+                <p>charities information ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>charities information FRENCH</p>
+            </div>
+            
+            <!--GREEN INITIATIVES-->
+            <a name="green_initiatives"></a>
+            <h2 data-i18n="nav.subnav.green_initiatives"><!--GREEN INITIATIVES--></h2>
+            <div class="en-CA">
+                <p>green_initiatives information ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>green_initiatives information FRENCH</p>
+            </div>
+            
+            <!--CONTRACT POLICY-->
+            <a name="contract_policy"></a>
+            <h2 data-i18n="nav.subnav.contract_policy"><!--CONTRACT POLICY--></h2>
+            <div class="en-CA">
+                <p>contract_policy information ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>contract_policy information FRENCH</p>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+            <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
+            <img src="//placehold.it/350x350" class="hidden-xs">
+            <ul class="button-panel">
+                <li><a href="#place_vertu" class="btn btn-default" ><span data-i18n="nav.subnav.place_vertu"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--PLACE VERTU--></a></li>
+                <li><a href="#leasing_information" class="btn btn-default"><span data-i18n="nav.subnav.leasing_information"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--PLACE VERTU--><!--LEASING INFORMATION--></a></li>
+                <li><a href="#charities" class="btn btn-default"><span data-i18n="nav.subnav.charities"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--CHARITIES & NON-PROFIT --></a></li>
+                <li><a href="#green_initiatives"  class="btn btn-default" ><span data-i18n="nav.subnav.green_initiatives"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--GREEN INITIATIVES--></a></li>
+                <li><a href="#contract_policy" class="btn btn-default"><span data-i18n="nav.subnav.contract_policy"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--BUILDING CONTRACT POLICY--></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
+</script>
