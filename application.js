@@ -640,19 +640,3 @@ function renderFeatureItems(){
         $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
     })
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
