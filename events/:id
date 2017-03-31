@@ -67,7 +67,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             promo_details = getEventDetailsBySlug(slug);
-            renderEventDetails('#promo_details_container', '#promo_details_template', promo_details, "Halifax")
+            renderEventDetails('#promo_details_container', '#promo_details_template', promo_details, "The Pen Centre")
             show_content();
         }
         loadMallDataCached(renderAll); 
