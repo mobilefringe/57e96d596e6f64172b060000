@@ -21,7 +21,7 @@
                 <div class="side_stores">
                     <a href="tel:{{phone}}" style="{{phone_show}}">Phone: {{phone}}</a>
                     <a href="/stores/{{store_slug}}" style="{{store_show}}">Visit Store Details</a>
-                    <a href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
+                    <a href="https://{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
                 <div class="margin_20"></div>
             </div>
