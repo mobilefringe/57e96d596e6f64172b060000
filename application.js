@@ -361,7 +361,6 @@ function renderJobs(container, template, collection){
             val.description_short = val.description;
         }
         
-        // var show_date = new Date (val.start_date + "T04:00:00Z");
         var show_date = moment(val.start_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
         
@@ -413,8 +412,8 @@ function renderJobDetails(container, template, collection, mall_name){
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1486678177000/pen.png";
         }
         
-        var show_date = new Date (val.start_date + "T04:00:00Z");
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.start_date).tz(getPropertyTimeZone());
+        val.published_on = show_date.format("MMM D");
     
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
