@@ -31,10 +31,10 @@
                 <p class="promo_dates underline">{{dates}}</p>
                 <p class="show_phone"><span class="promo_store">{{store_name}} </span><a href="/stores/{{store_slug}}" class="read_more">View Store Info</a></p>
                 <p class="show_phone mobile_share_container">
-                    <a href="https://www.facebook.com/sharer.php?u=http://thepencentre.com/promotions/{{slug}}" target="_blank">
+                    <a href="https://www.facebook.com/sharer.php?u=https://thepencentre.com/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=http://thepencentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="https://twitter.com/intent/tweet?url=https://thepencentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </p>
@@ -44,13 +44,13 @@
                 <img src="{{store_image}}" alt="Store Logo" class="store_logo" />
                 <div class="side_stores">
                     <a class="animated_btn" href="tel:{{phone}}" style="{{phone_show}}">Phone: {{phone}}</a>
-                    <a class="animated_btn" href="http://{{website}}" target="_blank" style="{{show}}">Visit Website</a>
+                    <a class="animated_btn" href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
                 <div class="share_container">
-                    <a href="https://www.facebook.com/sharer.php?u=http://thepencentre.com/promotions/{{slug}}" target="_blank">
+                    <a href="https://www.facebook.com/sharer.php?u=https://thepencentre.com/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=http://thepencentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="https://twitter.com/intent/tweet?url=https://thepencentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </div>
