@@ -456,14 +456,11 @@ function renderHours(container, template, collection, type){
                 case 6:
                     val.day = "Saturday"
                     break;
-                
             }
             if (val.open_time && val.close_time && val.is_closed == false){
-                var open_time = new Date (val.open_time)
-                var close_time = new Date (val.close_time)
-                val.open_time = convert_hour(open_time);
-                val.close_time = convert_hour(close_time);    
-                val.h = val.open_time+ " - " + val.close_time;
+                var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
             } else {
                 "Closed"
             }
@@ -473,26 +470,22 @@ function renderHours(container, template, collection, type){
         collection = []
         collection = item_list;
     }
-    
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date)
-                holiday.setDate(holiday.getDate()+1);
+                holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
+                val.formatted_date = holiday.format("dddd MMM D YYYY");
                 if (val.open_time && val.close_time && val.is_closed == false){
-                    var open_time = new Date (val.open_time)
-                    var close_time = new Date (val.close_time)
-                    val.open_time = convert_hour(open_time);
-                    val.close_time = convert_hour(close_time);    
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
                     if (val.open_time == "0:00 AM"){
                         val.open_time = "12:00 AM"
                     }
                      if (val.close_time == "0:00 AM"){
                         val.close_time = "12:00 AM"
                     }
-                    val.h = val.open_time+ " - " + val.close_time;
+                    val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
                 } else {
                     val.h = "Closed"
                 }
@@ -504,29 +497,26 @@ function renderHours(container, template, collection, type){
         collection = []
         collection = item_list;
     }
-    
     if (type == "closed_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date + "T05:00:00Z")
+                holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
+                val.formatted_date = holiday.format("dddd MMM D YYYY");
                 if (val.open_time && val.close_time && val.is_closed == false){
-                    var open_time = new Date (val.open_time)
-                    var close_time = new Date (val.close_time)
-                    val.open_time = convert_hour(open_time);
-                    val.close_time = convert_hour(close_time);    
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
                     if (val.open_time == "0:00 AM"){
                         val.open_time = "12:00 AM"
                     }
                      if (val.close_time == "0:00 AM"){
                         val.close_time = "12:00 AM"
                     }
-                    val.h = val.open_time+ " to " + val.close_time;
+                    val.h = open_time.format("h:mm A") + " to " + close_time.format("h:mm A");
                 } else {
                     val.h = "Closed"
                 }
-                if (val.h == "Closed"){
+                if (val.h == "Closed") {
                     item_list.push(val)
                 }
             }
@@ -534,13 +524,10 @@ function renderHours(container, template, collection, type){
         collection = []
         collection = item_list;
     }
-    
     $.each( collection , function( key, val ) {
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
