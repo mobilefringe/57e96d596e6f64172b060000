@@ -583,18 +583,17 @@ function renderHomeHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
-        val.day = get_day(val.day_of_week);
-        var d = new Date();
-        val.month = get_month(d.getMonth());
-        val.weekday = addZero(d.getDate());
+        val.day = moment().format("ddd");
+        var d = moment();
+        val.month = moment().month();
+        val.weekday = moment().date();
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-            var open_time = new Date (val.open_time);
-            var close_time = new Date (val.close_time);
-            val.open_time = convert_hour(open_time);
-            val.close_time = convert_hour(close_time);    
-            val.h = get_day(d.getDay()) + " " + val.open_time+ " - " + val.close_time;
+            var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+            var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+            val.h = val.day + " " + open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
         } else {
             val.h = "Closed";
+            $('.hours_dot').css("background", "#cd1629");
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
