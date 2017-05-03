@@ -1,3 +1,9 @@
+<div class="popup_home hidden_now">
+    <a href="#">
+        <img src="#" alt="pop up" />
+    </a>
+    <i class="fa fa-remove close_popup"></i>
+</div>
 <div class="hero_banner text-center">
     <h3><strong>Find YOUR Everything</strong></h3>
     <p>AT NIAGARA'S LARGEST INDOOR SHOPPING CENTRE</p>
