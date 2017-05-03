@@ -568,8 +568,8 @@ h4{
 }
 .close_popup{
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 7px;
+    right: 7px;
     padding: 2px 5px;
     font-size: 25px;
     cursor: pointer;
