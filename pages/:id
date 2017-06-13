@@ -9,6 +9,9 @@
         </div> 
     </div>
     <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected></option>
+        </select>
     </h5>
 </div>
 <div class="margin_20"></div>
