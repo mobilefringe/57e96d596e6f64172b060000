@@ -2,10 +2,10 @@
     <h3 id="mm_page_title"></h3>
     <p>explore • enjoy • shop</p>
 </div>
-<!--<div class="store_list_head main_container">-->
-<!--    <div class="row hidden_phone">-->
+<div class="store_list_head main_container">
+    <div class="row hidden_phone"></div>
      
-<!--</div>-->
+</div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
     <div class="row">
