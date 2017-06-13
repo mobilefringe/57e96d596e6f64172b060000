@@ -4,7 +4,18 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-     
+        <div class="col-md-4">
+            <h5></h5>
+        </div> 
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <!--<select id="option_selector" class="link_selector">-->
+        <!--    <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
+        <!--    <option value="/pages/halifaxcentre-cummunity">Community</option>-->
+        <!--    <option value="/pages/halifaxcentre-accessibility">Accessibility</option>-->
+        <!--    <option value="/consultations">Consultations</option>-->
+        <!--</select>-->
+    </h5>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
