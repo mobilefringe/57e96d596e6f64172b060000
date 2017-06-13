@@ -12,10 +12,12 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
-    <div class="row">
-        <div class="col-md-12">
-            <p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>
-    <p><a href="/">Click here</a> to return to the Home page.</p>
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>
+        <p><a href="/">Click here</a> to return to the Home page.</p>
+            </div>
         </div>
     </div>
 </div>
