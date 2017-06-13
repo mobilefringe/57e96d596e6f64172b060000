@@ -2,8 +2,6 @@
     <h3>NEWSLETTER</h3>
     <p>explore • enjoy • shop</p>
 </div>
-
-
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-12">
@@ -25,14 +23,6 @@
         </div>
     </div>
 </div>
-
-<!--<div class="store_list_head main_container">-->
-<!--    <div class="page-header">-->
-<!--        <h1>Thank you</h1>-->
-<!--    </div>-->
-<!--    <p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>-->
-<!--    <p><a href="/">Click here</a> to return to the Home page.</p>-->
-<!--</div>-->
 <script>
     $(document).ready(function(e){
         init(e);
