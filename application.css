@@ -21,6 +21,11 @@ body{
     font-family:italic;
 }
 
+.bc_banner {
+    margin-bottom: 30px;
+    max-width: 95%;
+}
+
 .chat_link {
     background: #606060;
     color: #fff;
