@@ -14,7 +14,7 @@ function renderStoreList(container, template, collection, starter, breaker){
             
         //var categories = getStoreCategories();
 
-        if (val.categories !- null){
+        if (val.categories != null){
             val.cat_list = val.categories.join(',');
         }
         
