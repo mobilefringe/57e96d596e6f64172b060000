@@ -3,8 +3,8 @@
         <div class="main_banner text-center">
             <h3>{{name}}</h3>
         </div>
-        <div class="main_container content_container">
-            <div class="store_list_head ">
+        
+            <div class="store_list_head main_container">
                 <div class="row">
                     <div class="col-md-12 store_top">
                         <h5 class="back_btn show_phone"><a href="/stores" class="store_anchors active_heading">BACK TO DIRECTORY</a></h5>
@@ -40,7 +40,7 @@
                     </div> 
                 </div>
             </div>
-        </div>
+        
     </script>
 </div>
 <div class="main_container content_container">
