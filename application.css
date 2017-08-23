@@ -460,6 +460,7 @@ h4{
     background-image:url(//codecloud.cdn.speedyrails.net/sites/57e96d596e6f64172b060000/image/jpeg/1497302879000/New-PenCentre-Header-Tinted.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
+    background-position: center center;
     height:540px;
     h3{
         margin:0;
