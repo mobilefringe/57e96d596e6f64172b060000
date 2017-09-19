@@ -62,19 +62,6 @@
         ga('send', 'pageview');
         var mall_name = "The Pen Centre"
    </script>
-   <script>
-        /**
-        * Function that tracks a click on an outbound link in Analytics.
-        * This function takes a valid URL string as an argument, and uses that URL string
-        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-        * using 'navigator.sendBeacon' in browser that support it.
-        */
-        var trackOutboundLink = function(url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon'
-            });
-        }
-    </script>
 </head>
 
 <body class="">
@@ -204,14 +191,7 @@
     <section class="yield">
         {{yield}}
     </section>
-    
-    <!-- BC FIRE BANNER -->
-    <div class="trim_screen">
-        <a id="track_link" href="https://donate.redcross.ca/ea-action/action?ea.client.id=1951&ea.campaign.id=74010&_ga=2.186858216.1395117015.1499699609-1123211371.1499699609" target="_blank">
-            <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/image/jpeg/1499956420000/bc_fire_banner.jpg" alt=""/>
-        </a>
-    </div>
-    
+
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
@@ -282,11 +262,6 @@
         </div>
     </section>
     <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
-    <script>
-        $("#track_link").click( function() {
-            trackOutboundLink('https://donate.redcross.ca/ea-action/action?ea.client.id=1951&ea.campaign.id=74010&_ga=2.186858216.1395117015.1499699609-1123211371.1499699609');
-        });
-    </script> 
 </body>
 
 </html>
