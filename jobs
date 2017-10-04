@@ -13,7 +13,7 @@
                             <h2 class="promo_list_name">{{name}}</h2>
                             <p>
                                 <span class="promo_store">{{store_name}}</span>
-                                <span class="promo_store">{{job_type}}</span>
+                                <span class="promo_dates">{{job_type}}</span>
                              
                             </p>
                             <div class="promo_list_desc hidden_phone">{{description_short}}</div>
