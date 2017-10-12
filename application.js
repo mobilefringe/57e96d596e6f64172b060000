@@ -140,7 +140,7 @@ function renderPromotions(container, template, collection, centre){
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "";
+            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1480532253000/PenCentre_logo.png";
         }
         
         if(val.description.length > 200){
@@ -240,7 +240,9 @@ function renderEvents(container, template, collection, centre){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
-            val.cat_list = store_details.categories.join(',')
+            if(store_details.categories != null){
+                val.cat_list = store_details.categories.join(',')
+            }
         }
         else{
             val.store_name = centre;
