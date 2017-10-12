@@ -126,7 +126,11 @@ function renderPromotions(container, template, collection, centre){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
-            val.image_url = val.promo_image_url_abs;
+            if(val.promo_image_url_abs != null){
+                val.image_url = val.promo_image_url_abs;
+            } else {
+                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1480532253000/PenCentre_logo.png";
+            }
             if(store_details.categories != null){
                 val.cat_list = store_details.categories.join(',')
             }
