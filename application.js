@@ -127,7 +127,9 @@ function renderPromotions(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
-            val.cat_list = store_details.categories.join(',')
+            if(store_details.categories != null){
+                val.cat_list = store_details.categories.join(',')
+            }
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
