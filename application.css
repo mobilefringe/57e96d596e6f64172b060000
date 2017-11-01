@@ -1703,9 +1703,6 @@ h4{
         text-align:center;
         margin-bottom:10px;
     }
-    .holiday_header {
-        color: #AA0114;
-    }
     #map{
         width:100%;
     }
@@ -1903,6 +1900,9 @@ h4{
         color: #89c1c4;
         font-size:20px;
         text-transform: uppercase;
+    }
+    .holiday_header {
+        color: #AA0114;
     }
     .category_name{
         margin: 10px 0;
