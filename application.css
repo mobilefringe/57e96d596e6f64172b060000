@@ -1881,9 +1881,6 @@ h4{
         border: 1px solid #979797;
         margin:15px 0;
     }
-    
-    
-    
     .store_list{
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -1892,9 +1889,6 @@ h4{
         -moz-column-gap: 75px;
         column-gap: 75px;
     }
-    
-    
-    
     .category_header{
         font-family:'Open Sans Condensed';
         color: #89c1c4;
