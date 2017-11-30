@@ -40,7 +40,7 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.job_exist = "display:none";
         }
         
-        if(val.is_coming_soon_store != false){
+        if(val.is_coming_soon_store != null){
             val.coming_soon = "display: inline-block";
         } else {
             val.coming_soon = "display: none";
