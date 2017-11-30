@@ -45,6 +45,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         } else {
             val.coming_soon = "display: inline-block";
         }
+        
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
