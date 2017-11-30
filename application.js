@@ -40,6 +40,9 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.job_exist = "display:none";
         }
         
+        if(val.coming_soon_store != null){
+            
+        }
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
