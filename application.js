@@ -40,8 +40,10 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.job_exist = "display:none";
         }
         
-        if(val.coming_soon_store != null){
-            
+        if(val.is_coming_soon_store != false){
+            val.coming_soon = "display: inline-block";
+        } else {
+            val.coming_soon = "display: none";
         }
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
