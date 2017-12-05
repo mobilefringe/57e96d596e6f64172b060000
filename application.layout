@@ -264,7 +264,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="site_map_heading">© 2016 - THE PEN CENTRE</h3>
+                    <h3 class="site_map_heading">©<span id="current_year"></span> - THE PEN CENTRE</h3>
                     <p class="rights_reserved">
                         <a href="https://www.google.ca/maps/place/The+Pen+Centre/@43.1362541,-79.2248803,15z/data=!4m2!3m1!1s0x0:0x1a360763bccd35c2?sa=X&ved=0ahUKEwirjp-5y-LPAhVspIMKHTXNCPQQ_BIIhgEwFA" target="_blank">
                             221 Glendale Ave, St. Catharines, ON <br /> L2T 2K9
