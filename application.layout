@@ -206,11 +206,11 @@
     </section>
 
     <section class="content_container main_container">
-        <div class="newsletter_container text-center">
-            <!--<h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>-->
-            <!--<p class="newsletter_desc"><span>•</span> Fashion <br class="show_phone" /><span>•</span> Events  <br class="show_phone" /><span>•</span> Sales </p>-->
-            <!--<a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>-->
-        </div>
+        <!--<div class="newsletter_container text-center">-->
+        <!--    <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>-->
+        <!--    <p class="newsletter_desc"><span>•</span> Fashion <br class="show_phone" /><span>•</span> Events  <br class="show_phone" /><span>•</span> Sales </p>-->
+        <!--    <a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>-->
+        <!--</div>-->
         <!-- Rohingya Crisis BANNER -->
         <div class="trim_screen">
             <a id="track_link" href="https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/" target="_blank">
