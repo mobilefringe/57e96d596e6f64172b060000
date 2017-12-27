@@ -44,12 +44,13 @@ function renderStoreList(container, template, collection, starter, breaker){
             console.log(val.name)
             console.log(val.new_store_open_date)
             var today = moment().format("YYYY-MM-DD");
-            if(val.new_store_open_date <= today){
-                val.coming_soon = "display: inline-block";
+            if(val.new_store_open_date >= today){
+                val.coming_soon = "display: none";
+                
                 
             } else {
+                val.coming_soon = "display: inline-block";
                 
-                val.coming_soon = "display: none";
             }
         } else {
             val.coming_soon = "display: none";
