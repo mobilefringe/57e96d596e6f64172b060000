@@ -40,7 +40,8 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.job_exist = "display:none";
         }
         
-        if(val.is_coming_soon_store == true){
+        if(val.is_coming_soon_store === true){
+            console.log(val.name)
             var today = moment().format("YYYY-MM-DD");
             console.log(today);
             if(val.new_store_open_date != null && val.new_store_open_date >= today){
