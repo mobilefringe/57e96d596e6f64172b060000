@@ -40,10 +40,14 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.job_exist = "display:none";
         }
         
-        if(val.is_coming_soon_store != true){
-            val.coming_soon = "display: none";
+        if(val.is_coming_soon_store == true){
+            var today = moment().format("YYYY-MM-DD");
+            console.log(today);
+            if(val.new_store_open_date != null && val.new_store_open_date >= today){
+                val.coming_soon = "display: inline-block";
+            }
         } else {
-            val.coming_soon = "display: inline-block";
+            val.coming_soon = "display: none";
         }
         
         val.block = current_initial + '-block';
