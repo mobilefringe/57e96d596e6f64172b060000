@@ -4,7 +4,7 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <p>Be the first to know! Sign up to receive the latest CORE Shopping Centre updates including contests, events and promotions.</p>
+    <p>Be the first to know! Sign up to receive the latest The Pen Centre updates including contests, events and promotions.</p>
     <div class="newsletter_page">
         <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/ykddht/" method="post">
             <div class="floater-left">
@@ -23,7 +23,7 @@
             
             <br />
             
-            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
+            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The Pen Centre via electronic messaging; and I acknowledge that I have read and understand the 
             <a style="color:#581d37" target="_blank" href="/pages/core-privacy">Privacy Terms &amp; Conditions</a>.</label></p>
             <div>     
                 <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
