@@ -133,7 +133,6 @@
                         <li><a href="/community">Community</a></li>
 						<li><a href="/accessibility">Accessibility</a></li>
 						<li><a href="/mallwalk">Mall Walk</a></li>
-						
 					</ul>
                 </li>
                 <li>
@@ -159,8 +158,8 @@
 						<li><a href="/contact_us">Contact Us</a></li>
 						<li><a href="/jobs">Jobs</a></li>
 						<li><a href="/leasing">Leasing</a></li>
-							<li><a href="/security">Security</a></li>
-								<li><a href="	/pages/thepencentre-donation-sponsorship--2">Donation/Sponsorship</a></li>
+						<li><a href="/security">Security</a></li>
+						<li><a href="	/pages/thepencentre-donation-sponsorship--2">Donation/Sponsorship</a></li>
 					</ul>
                 </li>
             </ul>
