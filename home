@@ -18,23 +18,24 @@
             </div>
             
             <div class="feature_item">
-                <a class="show_phone" href="https://twitter.com/thepencentre" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/599dd0b36e6f6420a7420000/image/png/1511810915000/TPCTwitter.png"  alt="twitter"></a>
-                <div class="social_box hidden_phone text-center" d="social_twitter">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1463434698000/tweet.png" class="" alt="tweet">
-                    <div>
-                        <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
-                        <p>
-                            <a class="social_link_blank" href="https://twitter.com/thepencentre" target="_blank">@thepencentre</a> <br />
-                            <span id="latest_tweet_date"></span>
-                        </p>
-                    </div>
-                </div>
+                <!--<a class="show_phone" href="https://twitter.com/thepencentre" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/599dd0b36e6f6420a7420000/image/png/1511810915000/TPCTwitter.png"  alt="twitter"></a>-->
+                <!--<div class="social_box hidden_phone text-center" d="social_twitter">-->
+                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1463434698000/tweet.png" class="" alt="tweet">-->
+                <!--    <div>-->
+                <!--        <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>-->
+                <!--        <p>-->
+                <!--            <a class="social_link_blank" href="https://twitter.com/thepencentre" target="_blank">@thepencentre</a> <br />-->
+                <!--            <span id="latest_tweet_date"></span>-->
+                <!--        </p>-->
+                <!--    </div>-->
+                <!--</div>-->
                 <div id="feature_2" class="position_relative"></div>
                 <div id="feature_3" class="position_relative"></div>
+                <div id="feature_4" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
-                <div id="feature_4" class="position_relative"></div>
+                <div id="feature_5" class="position_relative"></div>
                 <!--<a href="https://www.facebook.com/thepencentre" target="_blank" class="show_phone">-->
                 <!--    <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/jpeg/1464191314000/hsc_facebook-1.jpg" alt="fb">-->
                 <!--</a>-->
@@ -46,8 +47,8 @@
                 <!--        <span id="latest_fb_date"></span>    -->
                 <!--    </p>-->
                 <!--</div>-->
-                <div id="feature_5" class="position_relative"></div>
                 <div id="feature_6" class="position_relative"></div>
+                <div id="feature_7" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
@@ -66,7 +67,7 @@
                         <p class="hours_link">See More Hours</p>
                     </a>
                 </div>
-                <div id="feature_7" class="position_relative"></div>
+                <div id="feature_8" class="position_relative"></div>
             </div>
             <div class="clearfix"></div>
         </div>
