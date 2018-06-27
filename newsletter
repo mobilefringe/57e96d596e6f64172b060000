@@ -23,8 +23,12 @@
             
             <br />
             
-            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The Pen Centre via electronic messaging; and I acknowledge that I have read and understand the 
-            <a style="color:#581d37" target="_blank" href="pages/thepencentre-privacy-policy">Privacy Terms &amp; Conditions</a>.</label></p>
+            <p style="font-size: 13px;">
+                <input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>
+                <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The Pen Centre via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="pages/thepencentre-privacy-policy">Privacy Terms &amp; Conditions</a>.
+                    
+                </label>
+            </p>
             <div>     
                 <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
             </div>
