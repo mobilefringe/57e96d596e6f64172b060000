@@ -35,32 +35,31 @@
         </form>
     </div>
 </div>
-    <script type="text/javascript">
-        $(document).ready(function(e){
-            init(e);
-            show_content();
-        })
+<script type="text/javascript">
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
+
     
-        
-        $("#newsletter_form").submit(function( e ) {
-            e.preventDefault();
-            if ($("#agree_newsletter_page").prop("checked") != true){
-                alert("Please agree to the receiving newsletter.");
-                $("#agree_newsletter_page").focus();
-            } else {
-                $.getJSON(
-                    this.action + "?callback=?",
-                    $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("Please try again later.");
-                        } else { // 200
-                            alert("Thank you for subscribing to our newsletter.");
-                            $('#newsletter_form').trigger('reset')
-                        }
-                });
-            }
-          
-        });
-    </script>
-    
+    // $("#newsletter_form").submit(function( e ) {
+    //     e.preventDefault();
+    //     if ($("#agree_newsletter_page").prop("checked") != true){
+    //         alert("Please agree to the receiving newsletter.");
+    //         $("#agree_newsletter_page").focus();
+    //     } else {
+    //         $.getJSON(
+    //             this.action + "?callback=?",
+    //             $(this).serialize(),
+    //             function (data) {
+    //                 if (data.Status === 400) {
+    //                     alert("Please try again later.");
+    //                 } else { // 200
+    //                     alert("Thank you for subscribing to our newsletter.");
+    //                     $('#newsletter_form').trigger('reset')
+    //                 }
+    //         });
+    //     }
+      
+    // });
+</script>
