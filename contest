@@ -140,7 +140,7 @@
             console.log(contests)
             var current_contest = [];
             $.each(contests, function(key, val){
-                if(val.show_on_slug === "thepencentre-contest") {
+                if(val.slug === "thepencentre-give-back-give-away-contest") {
                     current_contest.push(val);
                 } 
             });
