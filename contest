@@ -212,6 +212,7 @@
             contest_data.newsletter = $('#agree').prop("checked");
             
             contest_entry.contest = contest_data;
+            console.log(contest_entry.contest)
             var propertyDetails = getPropertyDetails();
             var host = propertyDetails.mm_host.replace("http:", "");
             var action = host + "/contests/" + slug + "/create_js_entry"
