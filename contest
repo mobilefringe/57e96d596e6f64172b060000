@@ -178,6 +178,8 @@
                 // var formData = new FormData($(this)[0]);
                 var formData = $('#contest_form').serializeObject();
                 console.log(formData)
+                
+                var propertyDetails = getPropertyDetails();
                 var host = propertyDetails.mm_host.replace("http:", "");
                 var action = host + "/contests/" + slug + "/create_js_entry"
                 $.ajax({
