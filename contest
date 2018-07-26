@@ -167,20 +167,19 @@
             
             $('#contest_form').submit(function(e) {
                 e.preventDefault();
-                var entry_date = new Date;
-                $("#date").val(entry_date);
                 var formData = new FormData($(this)[0]);
-                $.ajax({
-                    url: '/contests/southcentre-our-city-our-stars/json_entry',
-                    cache: false,
-                    type: 'POST',
-                    data : formData,
-                    processData: false,
-                    contentType: false,
-                    success: function(json) {
-                        $('html, body').animate({scrollTop : 0},800);
-                    }
-                });
+                console.log(formData)
+                // $.ajax({
+                //     url: '/contests/southcentre-our-city-our-stars/json_entry',
+                //     cache: false,
+                //     type: 'POST',
+                //     data : formData,
+                //     processData: false,
+                //     contentType: false,
+                //     success: function(json) {
+                //         $('html, body').animate({scrollTop : 0},800);
+                //     }
+                // });
             });
             // $('#contest_form').submit(function(e){
             //     e.preventDefault();
