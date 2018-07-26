@@ -241,6 +241,7 @@
                 },
                 error: function (data){
                     alert('An error occured while processing your request. Please try again later!')
+                    $('#error_msg').show();
                 }
             });
         }
