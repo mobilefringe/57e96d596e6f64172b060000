@@ -165,24 +165,32 @@
     
             $.validate();
             
-            $('#contest_form').submit(function(e) {
+            $('#contest_form').submit(function(e){
                 e.preventDefault();
-                // var formData = new FormData($(this)[0]);
-                var formData = $('#contest_form').serializeObject();
-                console.log(formData)
-                $.ajax({
-                    url: '//thepencentre.mallmaverick.com/contests/thepencentre-contest/json_entry',
-                    cache: false,
-                    type: 'POST',
-                    data : formData,
-                    processData: false,
-                    contentType: false,
-                    success: function(json) {
-                        console.log(json)
-                        $('html, body').animate({scrollTop : 0},800);
-                    }
-                });
+                $('.contest_btn').prop('disabled', true);
+                // console.log(slug)
+                submit_contest(slug);
+                $('html, body').animate({scrollTop : 0},800);
             });
+            
+            // $('#contest_form').submit(function(e) {
+            //     e.preventDefault();
+            //     // var formData = new FormData($(this)[0]);
+            //     var formData = $('#contest_form').serializeObject();
+            //     console.log(formData)
+            //     $.ajax({
+            //         url: '//thepencentre.mallmaverick.com/contests/thepencentre-contest/json_entry',
+            //         cache: false,
+            //         type: 'POST',
+            //         data : formData,
+            //         processData: false,
+            //         contentType: false,
+            //         success: function(json) {
+            //             console.log(json)
+            //             $('html, body').animate({scrollTop : 0},800);
+            //         }
+            //     });
+            // });
         }
         loadMallDataCached(renderPageData);
     });
