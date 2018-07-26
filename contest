@@ -40,22 +40,31 @@
                             </div>
                             <br>
                         </div> 
-                        <form id="contest_form">
-                            <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
-                            <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
-                            <input type="hidden" name="cm-name" id="cm-name" />
+                        <form accept-charset="UTF-8" action="/contests/southcentre-our-city-our-stars/json_entry" onsubmit="return" enctype="multipart/form-data" id="contest_form" method="post">            
+                            <label for="propert_id" style="display:none">Property ID</label>
+                            <input id="propert_id" name="contest[property_id]" style="display:none" value="{{site.property.id}}" />
+                            <label for="contest_id" style="display:none">Contest ID</label>
+                            <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{contest.id}}" />
+                            
                             <div class="row ">
-                                <div class="col-md-4 margin_30">
+                                <div class="col-md-6 margin_30">
                                     <label for="first_name">First Name</label>  
                                     <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
                                 </div>
-                                <div class="col-md-4 margin_30">
+                                <div class="col-md-6 margin_30">
                                     <label for="last_name">Last Name</label>  
                                     <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
                                 </div>
+                            </div>
+                            <br class="hidden_phone">
+                            <div class="row">
                                 <div class="col-md-4 margin_30">
                                     <label for="phone">Phone Number</label>  
                                     <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
+                                </div>
+                                <div class="col-md-4 margin_30">
+                                    <label for="email">Email</label> 
+                                    <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
                                 </div>
                             </div>
                             <br class="hidden_phone">
@@ -68,10 +77,7 @@
                                     <label for="city">City</label>  
                                     <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
                                 </div>
-                                <div class="col-md-4 margin_30">
-                                    <label for="email">Email</label> 
-                                    <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
-                                </div>
+                                
                             </div>
                             <br>
                             <div class="row">
