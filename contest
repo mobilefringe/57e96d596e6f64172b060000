@@ -40,7 +40,7 @@
                             </div>
                             <br>
                         </div> 
-                        <form accept-charset="UTF-8" action="/contests/southcentre-our-city-our-stars/json_entry" onsubmit="return" enctype="multipart/form-data" id="contest_form" method="post">            
+                        <form accept-charset="UTF-8" action="/contests/thepencentre-give-back-give-away/json_entry" onsubmit="return" enctype="multipart/form-data" id="contest_form" method="post">            
                             <label for="propert_id" style="display:none">Property ID</label>
                             <input id="propert_id" name="contest[property_id]" style="display:none" value="{{site.property.id}}" />
                             <label for="contest_id" style="display:none">Contest ID</label>
