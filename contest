@@ -33,7 +33,7 @@
                             <div id="succes_msg" class="alert alert-success" role="alert" v-show="formSuccess">
                                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                                 <span class="sr-only">Success</span>
-                                Thank you for contacting us. A member from our team will contact you shortly.
+                                Thank you! Your entry has been received.
                             </div>
                             <div id="error_msg" class="alert alert-danger" role="alert" v-show="formError">
                                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
