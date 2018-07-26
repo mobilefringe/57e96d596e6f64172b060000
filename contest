@@ -170,7 +170,7 @@
                 var formData = new FormData($(this)[0]);
                 console.log(formData)
                 $.ajax({
-                    url: $(this).action,
+                    url: $(this).attr('action'),
                     cache: false,
                     type: 'POST',
                     data : formData,
