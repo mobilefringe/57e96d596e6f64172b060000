@@ -90,6 +90,19 @@
                                 </div>
                             </div>
                             <br>
+                            <div class="row ">
+                                <div class="col-md-12 margin_30">
+                                    <label for="charity">Nominated Charity Name</label>  
+                                    <input class="form-control" id="charity" name="json[charity]" type="text" required data-validation="required" tabindex="9"/>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-12 margin_30">
+                                    <label for="essay">Essay</label>  
+                                    <textarea class="form-control" id="essay" name="json[essay]" type="text" required data-validation="required" tabindex="10"/>
+                                </div>
+                            </div>
+                            <br>
                             <div class="row">
                                 <div class="col-md-12">
                                     <label class="agree">
