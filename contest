@@ -208,7 +208,7 @@
             var charity = $('#charity').val();
             var essay = $('#essay').val();
             var note = charity + ": " + essay
-            contest_data.note = note
+            contest_data.notes = note
             contest_data.newsletter = $('#agree').prop("checked");
             
             contest_entry.contest = contest_data;
