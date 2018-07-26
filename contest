@@ -181,34 +181,11 @@
             $('#contest_form').submit(function(e){
                 e.preventDefault();
                 $('.contest_btn').prop('disabled', true);
-                // console.log(slug)
                 submit_contest(slug);
                 $('html, body').animate({scrollTop : 0},800);
             });
-            
-            // $('#contest_form').submit(function(e) {
-            //     e.preventDefault();
-            //     // var formData = new FormData($(this)[0]);
-            //     var formData = $('#contest_form').serializeObject();
-            //     console.log(formData)
-                
-            //     var propertyDetails = getPropertyDetails();
-            //     var host = propertyDetails.mm_host.replace("http:", "");
-            //     var action = host + "/contests/" + slug + "/create_js_entry"
-            //     $.ajax({
-            //         url: action,
-            //         cache: false,
-            //         type: 'POST',
-            //         data : formData,
-            //         processData: false,
-            //         contentType: false,
-            //         success: function(json) {
-            //             console.log(json)
-            //             $('html, body').animate({scrollTop : 0},800);
-            //         }
-            //     });
-            // });
         }
+        
         loadMallDataCached(renderPageData);
         
         function submit_contest(slug) {
@@ -229,11 +206,9 @@
             contest_data.newsletter = $('#agree').prop("checked");
             
             contest_entry.contest = contest_data;
-            console.log(contest_entry.contest)
             var propertyDetails = getPropertyDetails();
             var host = propertyDetails.mm_host.replace("http:", "");
             var action = host + "/contests/" + slug + "/create_js_entry"
-            console.log(action)
             $.ajax({
                 url : action,
                 type: "POST",
