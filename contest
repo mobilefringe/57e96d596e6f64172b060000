@@ -40,7 +40,7 @@
                             </div>
                             <br>
                         </div> 
-                        <form accept-charset="UTF-8" action="/contests/thepencentre-give-back-give-away/json_entry" onsubmit="return" enctype="multipart/form-data" id="contest_form" method="post">            
+                        <form accept-charset="UTF-8" action="//thepencentre.mallmaverick.com/contests/thepencentre-give-back-give-away/json_entry/contests/thepencentre-give-back-give-away/json_entry" onsubmit="return" enctype="multipart/form-data" id="contest_form" method="post">            
                             <label for="propert_id" style="display:none">Property ID</label>
                             <input id="propert_id" name="contest[property_id]" style="display:none" value="{{site.property.id}}" />
                             <label for="contest_id" style="display:none">Contest ID</label>
@@ -169,17 +169,18 @@
                 e.preventDefault();
                 var formData = new FormData($(this)[0]);
                 console.log(formData)
-                // $.ajax({
-                //     url: '/contests/southcentre-our-city-our-stars/json_entry',
-                //     cache: false,
-                //     type: 'POST',
-                //     data : formData,
-                //     processData: false,
-                //     contentType: false,
-                //     success: function(json) {
-                //         $('html, body').animate({scrollTop : 0},800);
-                //     }
-                // });
+                $.ajax({
+                    url: '//thepencentre.mallmaverick.com/contests/thepencentre-give-back-give-away',
+                    cache: false,
+                    type: 'POST',
+                    data : formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(json) {
+                        console.log(json)
+                        $('html, body').animate({scrollTop : 0},800);
+                    }
+                });
             });
             // $('#contest_form').submit(function(e){
             //     e.preventDefault();
