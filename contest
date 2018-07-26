@@ -167,7 +167,8 @@
             
             $('#contest_form').submit(function(e) {
                 e.preventDefault();
-                var formData = new FormData($(this)[0]);
+                // var formData = new FormData($(this)[0]);
+                var formData = $('#contest_form').serializeObject();
                 console.log(formData)
                 $.ajax({
                     url: $(this).attr('action'),
