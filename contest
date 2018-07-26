@@ -27,19 +27,23 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
+                <div id="succes_msg" class="hidden_now alert alert-success" role="alert" v-show="formSuccess">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                    <span class="sr-only">Success</span>
+                    Thank you! Your entry has been received.
+                </div>
+                <div id="error_msg" class="hidden_now alert alert-danger" role="alert" v-show="formError">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                    <span class="sr-only">Error:</span>
+                    There was an error when trying to submit your request. Please try again later.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <div class="" id="contest_container">
                     <script id="contest_template" type="x-tmpl-mustache">
                         <div class="promo-details">
-                            <div id="succes_msg" class="alert alert-success" role="alert" v-show="formSuccess">
-                                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-                                <span class="sr-only">Success</span>
-                                Thank you! Your entry has been received.
-                            </div>
-                            <div id="error_msg" class="alert alert-danger" role="alert" v-show="formError">
-                                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-                                <span class="sr-only">Error:</span>
-                                There was an error when trying to submit your request. Please try again later.
-                            </div>
                             <div class="event-image">
                                 <img class="contest banner" src="{{image_url}}">
                             </div>
