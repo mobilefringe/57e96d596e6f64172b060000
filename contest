@@ -178,13 +178,13 @@
     
             $.validate();
             
-            // $('#contest_form').submit(function(e){
-            //     e.preventDefault();
-            //     $('.contest_btn').prop('disabled', true);
-            //     // console.log(slug)
-            //     submit_contest(slug);
-            //     $('html, body').animate({scrollTop : 0},800);
-            // });
+            $('#contest_form').submit(function(e){
+                e.preventDefault();
+                $('.contest_btn').prop('disabled', true);
+                // console.log(slug)
+                submit_contest(slug);
+                $('html, body').animate({scrollTop : 0},800);
+            });
             
             // $('#contest_form').submit(function(e) {
             //     e.preventDefault();
