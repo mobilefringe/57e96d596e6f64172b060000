@@ -169,6 +169,7 @@
                 e.preventDefault();
                 // var formData = new FormData($(this)[0]);
                 var formData = $('#contest_form').serializeObject();
+                formData = JSON.stringify(formData);
                 console.log(formData)
                 $.ajax({
                     url: $(this).attr('action'),
