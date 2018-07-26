@@ -40,7 +40,7 @@
                             </div>
                             <br>
                         </div> 
-                        <form action="//thepencentre.mallmaverick.com/contests/thepencentre-contest/json_entry" id="contest_form" method="post">
+                        <form id="contest_form">
                             <label for="propert_id" style="display:none">Property ID</label>
                             <input id="propert_id" name="json[property_id]" style="display:none" value="{{property_id}}" />
                             <label for="contest_id" style="display:none">Contest ID</label>
@@ -171,7 +171,7 @@
                 var formData = $('#contest_form').serializeObject();
                 console.log(formData)
                 $.ajax({
-                    url: $(this).attr('action'),
+                    url: '//thepencentre.mallmaverick.com/contests/thepencentre-contest/json_entry',
                     cache: false,
                     type: 'POST',
                     data : formData,
