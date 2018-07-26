@@ -30,7 +30,16 @@
                 <div class="" id="contest_container">
                     <script id="contest_template" type="x-tmpl-mustache">
                         <div class="promo-details">
-                            <p class="hidden_now" id="succes_msg">Thank you! Your entry has been received.</p>
+                            <div id="succes_msg" class="alert alert-success" role="alert" v-show="formSuccess">
+                                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                <span class="sr-only">Success</span>
+                                Thank you for contacting us. A member from our team will contact you shortly.
+                            </div>
+                            <div id="error_msg" class="alert alert-danger" role="alert" v-show="formError">
+                                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                                <span class="sr-only">Error:</span>
+                                There was an error when trying to submit your request. Please try again later.
+                            </div>
                             <div class="event-image">
                                 <img class="contest banner" src="{{image_url}}">
                             </div>
