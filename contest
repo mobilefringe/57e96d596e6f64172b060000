@@ -100,7 +100,7 @@
                             <div class="row ">
                                 <div class="col-md-12 margin_30">
                                     <label for="essay">Essay</label>  
-                                    <textarea class="form-control" id="essay" name="json[essay]" type="text" required data-validation="required" tabindex="10"/></textarea>
+                                    <textarea class="form-control" id="essay" name="json[essay]" type="text" rows="10" required data-validation="required" tabindex="10"/></textarea>
                                     <br>
                                     <p>Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">500</span></p>
 
