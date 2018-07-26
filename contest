@@ -169,7 +169,6 @@
                 e.preventDefault();
                 // var formData = new FormData($(this)[0]);
                 var formData = $('#contest_form').serializeObject();
-                formData = JSON.stringify(formData);
                 console.log(formData)
                 $.ajax({
                     url: $(this).attr('action'),
@@ -184,13 +183,6 @@
                     }
                 });
             });
-            // $('#contest_form').submit(function(e){
-            //     e.preventDefault();
-            //     $('.contest_btn').prop('disabled', true);
-            //     // console.log(slug)
-            //     // submit_contest(slug);
-            //     $('html, body').animate({scrollTop : 0},800);
-            // });
         }
         loadMallDataCached(renderPageData);
     });
