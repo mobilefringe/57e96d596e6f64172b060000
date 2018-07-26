@@ -108,7 +108,7 @@
                                 <div class="col-md-12">
                                     <label class="agree">
                                         <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
-                                        Yes, I would like to receive information about events and promotions from Devonshire Mall.
+                                        Yes, I have read and agree to the contest rules.
                                     </label>
                                     <br/><br/>
                                 </div>
