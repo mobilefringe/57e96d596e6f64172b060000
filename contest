@@ -102,7 +102,7 @@
                                     <label for="essay">Essay</label>  
                                     <textarea class="form-control" id="essay" name="json[essay]" type="text" required data-validation="required" tabindex="10"/></textarea>
                                     <br>
-                                    Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">500</span>
+                                    <p>Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">500</span></p>
 
                                 </div>
                             </div>
