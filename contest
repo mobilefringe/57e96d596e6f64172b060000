@@ -170,18 +170,18 @@
                 // var formData = new FormData($(this)[0]);
                 var formData = $('#contest_form').serializeObject();
                 console.log(formData)
-                $.ajax({
-                    url: $(this).attr('action'),
-                    cache: false,
-                    type: 'POST',
-                    data : formData,
-                    processData: false,
-                    contentType: false,
-                    success: function(json) {
-                        console.log(json)
-                        $('html, body').animate({scrollTop : 0},800);
-                    }
-                });
+                // $.ajax({
+                //     url: $(this).attr('action'),
+                //     cache: false,
+                //     type: 'POST',
+                //     data : formData,
+                //     processData: false,
+                //     contentType: false,
+                //     success: function(json) {
+                //         console.log(json)
+                //         $('html, body').animate({scrollTop : 0},800);
+                //     }
+                // });
             });
         }
         loadMallDataCached(renderPageData);
