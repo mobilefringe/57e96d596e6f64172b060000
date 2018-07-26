@@ -159,7 +159,7 @@
                     $(this).val(trimmed + " ");
                 } else {
                     $('#display_count').text(words);
-                    $('#word_left').text(200-words);
+                    $('#word_left').text(500-words);
                 }
             });
     
