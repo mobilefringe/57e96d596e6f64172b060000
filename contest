@@ -61,58 +61,58 @@
                             
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="first_name">First Name</label>  
+                                    <label for="first_name">First Name *</label>  
                                     <input class="form-control margin_30" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="last_name">Last Name</label>  
+                                    <label for="last_name">Last Name *</label>  
                                     <input class="form-control margin_30" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
                                 </div>
                             </div>
                             <br class="hidden_phone">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <label for="phone">Phone Number</label>  
+                                    <label for="phone">Phone Number* </label>  
                                     <input class="form-control margin_30" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="email">Email</label> 
+                                    <label for="email">Email *</label> 
                                     <input class="form-control margin_30" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="4"/>
                                 </div>
                             </div>
                             <br class="hidden_phone">
                             <div class="row">
                                 <div class="col-md-12">    
-                                    <label for="address">Address</label>  
+                                    <label for="address">Address *</label>  
                                     <input class="form-control margin_30" id="address" name="contest[address]" type="text" required data-validation="required" tabindex="5"/>
                                 </div>
                             </div>
                             <br class="hidden_phone">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label for="city">City</label>  
+                                    <label for="city">City *</label>  
                                     <input class="form-control margin_30" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="6"/>    
                                 </div>
                                 <div class="col-md-4">
-                                    <label for="province">Province</label>  
+                                    <label for="province">Province *</label>  
                                     <input class="form-control margin_30" id="province" name="contest[province]" type="text" placeholder="ON" value="ON" required data-validation="required" tabindex="7"/>    
                                 </div>
                                 <div class="col-md-4">
-                                    <label for="postal_code">Postal Code</label>  
+                                    <label for="postal_code">Postal Code *</label>  
                                     <input class="form-control margin_30" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="8"/>
                                 </div>
                             </div>
                             <br>
                             <div class="row ">
                                 <div class="col-md-12">
-                                    <label for="charity">Nominated Charity Name</label>  
+                                    <label for="charity">Nominated Charity Name *</label>  
                                     <input class="form-control margin_30" id="charity" name="contest[charity]" type="text" required data-validation="required" tabindex="9"/>
                                 </div>
                             </div>
                             <br>
                             <div class="row ">
                                 <div class="col-md-12">
-                                    <label for="essay">Essay</label>  
+                                    <label for="essay">Essay *</label>  
                                     <textarea class="form-control margin_30" id="essay" name="contest[essay]" type="text" rows="10" required data-validation="required" tabindex="10"/></textarea>
 
                                     <p class="pull-right">Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">500</span></p>
