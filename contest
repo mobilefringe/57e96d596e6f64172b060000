@@ -170,7 +170,7 @@
                 var formData = new FormData($(this)[0]);
                 console.log(formData)
                 $.ajax({
-                    url: '//thepencentre.mallmaverick.com/contests/thepencentre-give-back-give-away/json_entry',
+                    url: $(this).action,
                     cache: false,
                     type: 'POST',
                     data : formData,
