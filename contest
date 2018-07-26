@@ -212,7 +212,7 @@
             // contest_data.newsletter = $('#newsletter_signup').prop("checked");
             
             contest_entry.contest = contest_data;
-            consoel.log(contest_entry.contest)
+            console.log(contest_entry.contest)
             var propertyDetails = getPropertyDetails();
             var host = propertyDetails.mm_host.replace("http:", "");
             var action = host + "/contests/" + slug + "/create_js_entry"
