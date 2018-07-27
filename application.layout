@@ -108,21 +108,9 @@
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
 						<li><a href="/events">Events</a></li>
-						<li class="contest_link"><a href="/contests">Contests</a></li>
+						<li><a href="/contest">Contest</a></li>
 					</ul>
                 </li>
-     <!--           <li>-->
-     <!--               <a href="#"  class="submenu_expander">-->
-     <!--                   BLOG/NEWS-->
-     <!--                   <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;">-->
-					<!--	<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;">-->
-     <!--               </a>-->
-     <!--               <ul class="sub_menu hidden_now">-->
-					<!--	<li><a href="/development">Development</a></li>-->
-					<!--	<li><a href="/styletv">Style TV</a></li>-->
-					
-					<!--</ul>-->
-     <!--           </li>-->
                 <li>
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
