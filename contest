@@ -108,7 +108,7 @@
                             <div class="row ">
                                 <div class="col-md-12">
                                     <label for="essay">Essay *</label>  
-                                    <textarea class="form-control margin_30" id="essay" name="contest[essay]" type="text" rows="8 " required data-validation="required" tabindex="10"/></textarea>
+                                    <textarea class="form-control margin_30" id="essay" name="contest[essay]" type="text" rows="8" required data-validation="required" tabindex="10"/></textarea>
                                 </div>
                             </div>
                             <div class="row ">
