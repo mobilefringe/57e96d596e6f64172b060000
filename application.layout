@@ -175,7 +175,7 @@
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
                 </div>
                  <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
-                <div class="col-md-4 col-xs-4 text-center logo_container">
+                <div class="col-md-4 col-sm-4 col-xs-4 text-center logo_container">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1480532253000/PenCentre_logo.png" class="main_logo " alt="main_logo">
                     </a>
