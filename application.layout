@@ -156,7 +156,7 @@
     <div class="fixed_header">
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
-            <div id="google_translate_element"></div>
+            <div id="google_translate_element" class="col-md-12"></div>
             <script type="text/javascript">
                 function googleTranslateElementInit() {
                   new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,it,zh-CN,zh-TW,ko,ar,hi,ha', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
