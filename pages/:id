@@ -12,7 +12,7 @@
         <select title="options" id="option_selector" class="link_selector">
             <option value="" disabled selected></option>
         </select>
-    </h5>
+    </p>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
