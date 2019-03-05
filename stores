@@ -16,6 +16,7 @@
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
+        <label for="option_selector">More Options</label>
         <select title="Form" id="option_selector" class="link_selector">
             <option title="More Options" value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option title="Shopping and Services" value="/stores">Shopping & Services</option>
