@@ -256,12 +256,15 @@
                         <div class="social_icons">
                             <a href="https://www.facebook.com/thepencentre?sk=wall" target="_blank">
                                 <span id="social_fb"></span>
+                                <p>Facebook</p>
                             </a>
                             <a href="https://twitter.com/thepencentre" target="_blank">
                                 <span id="social_twitter"></span>
+                                <p>Twitter</p>
                             </a>
                             <a href="https://www.instagram.com/thepencentre/" target="_blank">
                                 <span id="social_insta"></span>
+                                <p>Instagram</p>
                             </a>
                             
                             <div class="clearfix"></div>
