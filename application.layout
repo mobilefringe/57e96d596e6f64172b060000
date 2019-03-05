@@ -117,8 +117,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;" alt="Open Submenu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;" alt="Close Submenu">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/community">Community</a></li>
