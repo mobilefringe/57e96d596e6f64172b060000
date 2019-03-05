@@ -92,7 +92,7 @@
                 <li>
                     <a href="#" class="submenu_expander open">
                         STORES
-                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: none;" alt="Open Submenu>
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: none;" alt="Open Submenu">
 						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: inline;" alt="Close Submenu">
                     </a>
                     <ul class="sub_menu">
@@ -318,7 +318,7 @@
     <!--    });-->
     <!--</script>-->
     <!--Retargeting Pixel-->
-    <img src="https://i.simpli.fi/dpx?cid=169850&conversion=40&campaign_id=0&tid=240-000212-009_Pen_Centre_01Nov2018_CT&c=1&sifi_tuid=76241" width="1" height="1" alt="">
+    <img src="https://i.simpli.fi/dpx?cid=169850&conversion=40&campaign_id=0&tid=240-000212-009_Pen_Centre_01Nov2018_CT&c=1&sifi_tuid=76241" width="1" height="1">
 </body>
 
 </html>
