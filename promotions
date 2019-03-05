@@ -15,7 +15,7 @@
         <!--</div>-->
     </div>
     <h5 class="text-center tap_here show_phone">
-        <select title="More Options"id="option_selector" class="link_selector">
+        <select title="More Options" id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/events">Events</option>
             <!--<option value="/contests">Contest</option>-->
