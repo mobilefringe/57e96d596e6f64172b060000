@@ -8,11 +8,11 @@
             <h5 class="mm_page_title"></h5>
         </div> 
     </div>
-    <p class="text-center tap_here show_phone">
+    <h5 class="text-center tap_here show_phone">
         <select title="options" id="option_selector" class="link_selector">
             <option value="" disabled selected></option>
         </select>
-    </p>
+    </h5>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
