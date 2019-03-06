@@ -9,10 +9,10 @@
             <h5><a href="/stores">Shopping & Services</a></h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="/map">Centre Map</a></h5>
+            <h5 class="active_heading">Restaurants</h5>
         </div>
         <div class="col-md-4">
-            <h5 class="active_heading">Restaurants</h5>
+            <h5><a href="/map">Centre Map</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
