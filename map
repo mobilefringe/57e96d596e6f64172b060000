@@ -13,7 +13,7 @@
             <h5><a href="/stores">Shopping & services</a></h5>
         </div>
         <div class="col-md-4">
-            <h5><a href="#">Restaurants</a></h5>
+            <h5><a href="/restaurants">Restaurants</a></h5>
         </div>
         <div class="col-md-4">
             <h5 class="active_heading">Centre Map</h5>
