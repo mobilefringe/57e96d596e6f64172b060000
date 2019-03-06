@@ -452,6 +452,7 @@ h4{
     }
     .active_heading, .active_heading a{
         color: #467384;
+        font-weight: bolder;
     }
     .row{
         border-bottom:1px solid #979797;
