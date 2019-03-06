@@ -21,7 +21,6 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/community">Community</option>
             <option value="/accessibility">Accessibility</option>
-            <option value="/mallwalk">Mall Walk</option>
           
         </select>
     </h5>
