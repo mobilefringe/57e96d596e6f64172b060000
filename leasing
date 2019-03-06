@@ -23,7 +23,6 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
              <option value="/hours">Shopping Hours</option>
              <option value="/contact_us">Contact Us</option>
-            <option value="/leasing">Leasing</option>
             <option value="/security">Security</option>
         </select>
     </h5>
