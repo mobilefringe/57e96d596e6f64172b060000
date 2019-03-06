@@ -104,7 +104,7 @@ body{
     padding: 15px 20px;
     text-align: center;
     text-decoration: none !important;
-    background: #89c1c4;
+    background: #2f8185;
     width:240px;
 }
 
@@ -122,7 +122,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #89c1c4;
+    color: #2f8185;
 }
 
 .store_list_navigation{
@@ -176,7 +176,7 @@ a{
     font-size:16px;
     margin-bottom: 0;
      a{
-        color:#89c1c4 !important;
+        color:#2f8185 !important;
     }
 }
 
@@ -185,7 +185,7 @@ a{
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:#89c1c4 !important;
+        color:#2f8185 !important;
     }
 }
 .animated_btn{
@@ -443,7 +443,7 @@ h4{
     font-family:'Open Sans Condensed';
     h5, a{
         font-size: 24px;
-        color: #89c1c4;
+        color: #2f8185;
         letter-spacing: 1.5px;
         padding: 27px 0px;
         margin: 0;
@@ -504,7 +504,7 @@ h4{
             text-decoration:none;
         }
         &:before{
-                background: #89c1c4 !important;
+                background: #2f8185 !important;
         }
     }
 }
@@ -778,7 +778,7 @@ h4{
 .newsletter_btn{
     width:180px;
     display: inline-block;
-    background: #89c1c4;
+    background: #2f8185;
     color: #fff;
     font-size: 22px;
     margin-top: 25px;
@@ -975,7 +975,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: #89c1c4;
+    color: #2f8185;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -997,7 +997,7 @@ h4{
     vertical-align: middle;
     font-size: 16px;
     text-transform: uppercase;
-    color: #89c1c4;
+    color: #2f8185;
 }
 
 .grayscale{
@@ -1044,7 +1044,7 @@ h4{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #89c1c4;
+    color: #2f8185;
     margin-top:0;
 }
 
@@ -1117,7 +1117,7 @@ h4{
 .read_more{
     font-weight:lighter;
     font-size: 24px;
-    color: #89c1c4;
+    color: #2f8185;
     display: inline-block;
     margin-top: 20px;
     text-decoration: underline;
@@ -1236,7 +1236,7 @@ h4{
     font-style:normal;
     text-transform: uppercase;
     font-size: 22px;
-    color: #89c1c4;
+    color: #2f8185;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #979797;
@@ -1250,7 +1250,7 @@ h4{
     
     text-align:center;
     a{
-        background:#89c1c4;
+        background:#2f8185;
         margin-top:20px;
         font-weight:100;
         font-size: 22px;
@@ -1273,17 +1273,17 @@ h4{
 
 .holiday_hours_home{
     font-size: 16px;
-    color: #89c1c4;
+    color: #2f8185;
     font-family:'Open Sans Condensed';
     margin-bottom:10px;
     &:hover{
-        color: #89c1c4;
+        color: #2f8185;
     }
 }
 
 .store_anchors{
     font-size: 20px;
-    color: #89c1c4;
+    color: #2f8185;
     font-weight: 400;
 }
 
@@ -1378,7 +1378,7 @@ h4{
         margin-top: -20px;
        h5, a{
             font-size:20px;
-            color: #89c1c4;
+            color: #2f8185;
             letter-spacing: 1.5px;
             padding: 27px 0px;
             margin: 0;
@@ -1603,7 +1603,7 @@ h4{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #89c1c4;   
+        color: #2f8185;   
     }
     .mobile_padding{
         padding-left:15px;
@@ -1729,7 +1729,7 @@ h4{
     }
     
     .stores_main_heading{
-        color: #89c1c4;
+        color: #2f8185;
     }
     
     .stores_main_desc{
@@ -1747,7 +1747,7 @@ h4{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #89c1c4;
+        color: #2f8185;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -1760,7 +1760,7 @@ h4{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #89c1c4;
+        color: #2f8185;
         &::focus{
             outline:none;
         }
@@ -1768,7 +1768,7 @@ h4{
     
     .category_header{
         font-family:'Open Sans Condensed';
-        color: #89c1c4;
+        color: #2f8185;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -1969,7 +1969,7 @@ h4{
     }
     .category_header{
         font-family:'Open Sans Condensed';
-        color: #89c1c4;
+        color: #2f8185;
         font-size:20px;
         text-transform: uppercase;
     }
@@ -1987,9 +1987,9 @@ h4{
         font-weight:lighter;
     }
     .active_cat{
-        color: #89c1c4;
+        color: #2f8185;
         &:hover, &:focus{
-            color: #89c1c4;;
+            color: #2f8185;
         }
     }
     .alpha_list{
