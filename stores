@@ -5,14 +5,14 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-6">
+        <div class="col-md-4">
             <h5 class="active_heading">Shopping & services</h5>
         </div>
-        <div class="col-md-6">
-            <h5><a href="/map">Centre Map</a></h5>
+        <div class="col-md-4">
+            <h5><a href="#">Restaurants</a></h5>
         </div>
         <div class="col-md-4">
-            <!--<h5><a href="#">Dining & Entertainment</a></h5>-->
+            <h5><a href="/map">Centre Map</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
