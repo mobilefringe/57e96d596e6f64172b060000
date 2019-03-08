@@ -1275,11 +1275,12 @@ h4{
 
 .holiday_hours_home{
     font-size: 16px;
-    color: $primary;
+    color: $primary_accent;
     font-family:'Open Sans Condensed';
     margin-bottom:10px;
     &:hover{
-        color: $primary;
+        color: $primary_accent;
+        text-decoration: underline;
     }
 }
 
