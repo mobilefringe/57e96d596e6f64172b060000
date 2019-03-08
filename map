@@ -70,11 +70,7 @@
                 }
             });
             renderStoreList('#stores_container','#stores_template', stores, "A", "Z");
-            
-            $("#btnZoomIn").attr('alt', 'Zoom In');
-            $("#btnZoomOut").attr('alt', 'Zoom Out');
-
-                    
+      
             show_content();
             
             var map = $('#mapsvg_store_detail').mapSvg({
@@ -92,6 +88,9 @@
                 responsive:true,
                 zoomLimit: [0,5]
             });
+            
+            $("#btnZoomIn").attr('alt', 'Zoom In');
+            $("#btnZoomOut").attr('alt', 'Zoom Out');
             
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
