@@ -1120,7 +1120,7 @@ h4{
 .read_more{
     font-weight: lighter;
     font-size: 24px;
-    color: $primary;
+    color: $primary_accent;
     display: inline-block;
     margin-top: 20px;
     text-decoration: underline;
