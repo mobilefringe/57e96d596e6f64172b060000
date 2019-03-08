@@ -456,7 +456,7 @@ h4{
     }
     .active_heading, .active_heading a{
         color: $primary_accent;
-        font-weight: bolder;
+        font-weight: 700;
     }
     .row{
         border-bottom:1px solid #979797;
