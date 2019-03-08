@@ -653,6 +653,9 @@ h4{
         transition: 500ms;
         -webkit-transition: 500ms;
     }
+    .position_relative {
+        background-color: #747474;
+    }
 }
 #feature_1 .center_h {
     color: #000;
