@@ -189,7 +189,7 @@ a {
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:$primary !important;
+        color:$primary_accent !important;
     }
 }
 .animated_btn{
