@@ -49,16 +49,6 @@
                     </script>
                 </div>
             </div>
-            
-            <!--<div class="col-md-4">-->
-            <!--    <p class="category_header">Sort by Categories</p>-->
-            <!--    <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>-->
-            <!--    <div id="category_container" class="hidden_phone">-->
-            <!--        <script id="category_template" type="x-tmpl-mustache/text">-->
-            <!--            <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    -->
-            <!--        </script>-->
-            <!--    </div>-->
-            <!--</div>-->
         </div>
     </div>
 </div>
@@ -68,18 +58,14 @@
         init(e);
         function renderAll (){
             var published_promos = getPublishedPromotionsList().sortBy(function(o){ return o.end_date });
-            var categories = getStoreCategories();
-            renderGeneral('#category_container', '#category_template', categories);
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores()
 
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos, "The Pen Centre");
-            }
-            else{
+            } else {
                 $('#no_promos').show()
             }
+            
             show_content();
         }
 		loadMallDataCached(renderAll); 
