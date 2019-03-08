@@ -1102,7 +1102,7 @@ h4{
 .promo_dates, .dates{
     font-weight:lighter;
     font-size: 24px;
-    color: #467384;
+    color: $primary_accent;
     margin-bottom:26px;
     
 }
