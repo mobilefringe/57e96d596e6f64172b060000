@@ -453,7 +453,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: #467384;
+        color: $primary;
         font-weight: bolder;
     }
     .row{
