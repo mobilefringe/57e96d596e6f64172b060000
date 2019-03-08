@@ -980,7 +980,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: $primary;
+    color: $primary_accent;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
