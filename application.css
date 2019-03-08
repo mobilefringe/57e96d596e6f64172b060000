@@ -192,6 +192,9 @@ a {
         color:$primary_accent !important;
     }
 }
+.map_popover_close {
+    color: $grey !important;
+}
 .animated_btn{
     position:relative;
     z-index: 0;
