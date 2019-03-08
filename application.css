@@ -193,7 +193,7 @@ a {
     }
 }
 .map_popover_close {
-    color: $grey !important;
+    color: #000 !important;
 }
 .animated_btn{
     position:relative;
