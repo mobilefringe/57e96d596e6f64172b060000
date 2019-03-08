@@ -779,19 +779,16 @@ h4{
 }
 
 .newsletter_btn{
-    width:180px;
+    width: 180px;
     display: inline-block;
-    background: #2f8185;
-    color: #fff;
+    background: $primary;
+    color: #000;
     font-size: 22px;
     margin-top: 25px;
-    padding:14px 0px 18px  0;
+    padding: 14px 0px 18px  0;
     border: 0;
     &:hover, &:focus{
-        color: #fff;
         text-decoration: none;
-        
-        
     }
 }
 .menu_icon{
