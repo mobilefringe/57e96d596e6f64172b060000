@@ -6,6 +6,8 @@ For more information on asset types please see http://www.getcodecloud.com/docs#
 @import 'https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans+Condensed:300,300i,700';
 
 $primary: #89c1c4;
+$primary_accent: #2f8185;
+$grey: #888;
 
 body{
     color:#58595b;
@@ -445,7 +447,7 @@ h4{
     font-family:'Open Sans Condensed';
     h5, a{
         font-size: 24px;
-        color: #2f8185;
+        color: $grey;
         letter-spacing: 1.5px;
         padding: 27px 0px;
         margin: 0;
@@ -453,7 +455,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: $primary;
+        color: $primary$primary_accent;
         font-weight: bolder;
     }
     .row{
