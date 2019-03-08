@@ -787,7 +787,8 @@ h4{
     margin-top: 25px;
     padding: 14px 0px 18px  0;
     border: 0;
-    &:hover, &:focus{
+    &:hover, &:focus {
+        color: #000;
         text-decoration: none;
     }
 }
