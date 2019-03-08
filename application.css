@@ -455,7 +455,7 @@ h4{
         
     }
     .active_heading, .active_heading a{
-        color: $primary$primary_accent;
+        color: $primary_accent;
         font-weight: bolder;
     }
     .row{
