@@ -71,8 +71,9 @@
             });
             renderStoreList('#stores_container','#stores_template', stores, "A", "Z");
             
-            $("#btnZoomIn").append('<p style="display: none;">Zoom In</p>');
-            $("#btnZoomOut").append('<p style="display: none;">Zoom Out</p>');
+            $("#btnZoomIn").attr('alt', 'Zoom In');
+            $("#btnZoomOut").attr('alt', 'Zoom Out');
+
                     
             show_content();
             
@@ -108,10 +109,4 @@
         }
         loadMallDataCached(renderPageData);
     });
-    
-    
-    
-    
-    
-    
 </script>
