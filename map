@@ -70,7 +70,12 @@
                 }
             });
             renderStoreList('#stores_container','#stores_template', stores, "A", "Z");
+            
+            $(".zoom-in").append('<p style="display: none;">Zoom In</p>');
+            $(".zoom-out").append('<p style="display: none;">Zoom Out</p>');
+                    
             show_content();
+            
             var map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),
                 colors: {stroke: '#fff', selected: "#D8836C", hover: "#a6a6a6"},
