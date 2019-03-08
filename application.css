@@ -1118,9 +1118,9 @@ h4{
 }
 
 .read_more{
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: 24px;
-    color: #2f8185;
+    color: $primary;
     display: inline-block;
     margin-top: 20px;
     text-decoration: underline;
