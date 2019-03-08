@@ -43,7 +43,7 @@
                                     <span class="promo_dates">{{dates}}</span>
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                                <a class="read_more" href="/promotions/{{slug}}">View Promotion Details</a>
                             </div>
                         </div>
                     </script>
