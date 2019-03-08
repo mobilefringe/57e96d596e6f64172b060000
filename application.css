@@ -480,7 +480,7 @@ h4{
     h3{
         margin:0;
         font-size: 54px;
-        color: #b7f0f4;
+        color: $primary;
         letter-spacing: 4px;
         padding-top: 140px;
         margin-bottom: 10px;
