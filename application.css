@@ -118,15 +118,15 @@ body{
 }
 
 a:hover, a:active, a:focus{
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .underline:hover{
     text-decoration:underline;
 }
 
-a{
-    color: $primary;
+a {
+    color: $primary_accent;
 }
 
 .store_list_navigation{
