@@ -5,6 +5,8 @@ For more information on asset types please see http://www.getcodecloud.com/docs#
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import 'https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans+Condensed:300,300i,700';
 
+$primary: #89c1c4;
+
 body{
     color:#58595b;
     font-family:'Open Sans Condensed';
@@ -1248,18 +1250,17 @@ h4{
 }
 
 .side_stores{
-    
-    text-align:center;
-    a{
-        background:#2f8185;
-        margin-top:20px;
-        font-weight:100;
+    text-align: center;
+    a {
+        background: $primary;
+        margin-top: 20px;
+        font-weight: 100;
         font-size: 22px;
-        color: #fff;
-        font-weight:400;
+        color: #000;
+        font-weight: 400;
         padding: 18px 0;
         &:hover{
-            text-decoration:none;
+            text-decoration: none;
         }
     }
 }
