@@ -1974,7 +1974,7 @@ h4{
     }
     .category_header{
         font-family:'Open Sans Condensed';
-        color: $primary;
+        color: $primary_accent;
         font-size:20px;
         text-transform: uppercase;
     }
