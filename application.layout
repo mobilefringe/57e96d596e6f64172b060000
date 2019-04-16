@@ -245,6 +245,11 @@
         <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/jpeg/1510252672000/Rohingya_en.jpg" alt=""/>-->
         <!--    </a>-->
         <!--</div>-->
+        <!--<div class="trim_screen">-->
+        <!--    <a id="track_link" href="http://bit.ly/cyclone-idai-cushman-wakefield" target="_blank">-->
+        <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/png/1554151834429/Idaix2_800x100_en.png" alt=“Humanitarian Campaign”/>-->
+        <!--    </a>-->
+        <!--</div>-->
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4">
@@ -312,6 +317,11 @@
         </div>
     </section>
     <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/cushman-wakefield-the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
+    <script>
+        $("#track_link").click( function() {
+            trackOutboundLink('http://bit.ly/cyclone-idai-cushman-wakefield');
+        });
+    </script>
     <!--<script>-->
     <!--    $("#track_link").click( function() {-->
     <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
