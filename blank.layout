@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
+        <meta charset="utf-8">
+        <meta property="og:title" content="{{meta_title}}">
+        <meta property="og:description" content="{{meta_description}}">
+        <meta property="og:image" content="{{meta_image}}">
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@shopstc" />
+        <meta name="twitter:title" content="{{meta_title}}" />
+        <meta name="twitter:description" content="{{meta_description}}" />
+        <meta name="twitter:image" content="{{meta_image}}" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        
+        <title>{{meta_title}}</title>
+        <link rel="shortcut icon" href="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1476732662000/TPC_120x120.png" type="image/x-icon" />
+       
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+           
+            ga('create', 'UA-40014802-44', 'auto');
+            ga('send', 'pageview');
+            var mall_name = "The Pen Centre"
+       </script>
+    </head>
+    <body>
+        <section class="yield">
+            {{yield}}
+        </section>
+    </body>
+
+</html>
