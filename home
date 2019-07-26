@@ -4,10 +4,34 @@
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
-<div class="hero_banner text-center">
+<!--<div class="hero_banner text-center">-->
     <!--<h3><strong>Find YOUR Everything</strong></h3>-->
     <!--<p>AT NIAGARA'S LARGEST INDOOR SHOPPING CENTRE</p>-->
     <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
+<!--</div>-->
+<div class="home_banner">
+    <div class="flexslider text-center">
+        <!-- DYMANIC CONTENT -->
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li class="position_relative">
+                    {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
+                        <div class="hero_banner" style="background-image: url({{image_url}})"></div>
+                    </a>
+                </li>
+            </script>
+        </ul>
+    </div>
+    <div class="banner_text" id="welcome_msg_container">
+        <script id="welcome_msg_template" type="x-tmpl-mustache/text">
+            {{#welcome_message}}<h3>
+                {{welcome_message}}
+            </h3>{{/welcome_message}}
+            {{#description}}<p>
+                {{description}}
+            </p>{{/description}}
+        </script>
+    </div>
 </div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
@@ -85,7 +109,10 @@
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
-            renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)   
+            renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)
+            var banners = getBanners();
+            renderBanner('#banner_template','#home_banner',banners);
+            
             show_content();
             
             if($.cookie("popup_viewed") != "true"){
