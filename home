@@ -111,6 +111,9 @@
             var today_hours = getTodaysHours();
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)
             
+            // var property = [getPropertyDetails()];
+            // renderGeneral('#welcome_msg_container','#welcome_msg_template',property);
+            
             var banners = getBanners();
             if (banners) {
                 //in this template we only want to show one banner
