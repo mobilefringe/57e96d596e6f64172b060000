@@ -10,7 +10,7 @@
     <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
 <!--</div>-->
 <div class="home_banner">
-    <div class="flexslider text-center">
+    <div class="text-center">
         <!-- DYMANIC CONTENT -->
         <ul class="slides" id="home_banner">
             <script id="banner_template" type="x-tmpl-mustache/text">
