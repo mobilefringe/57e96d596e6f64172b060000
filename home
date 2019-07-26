@@ -112,7 +112,11 @@
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)
             
             var banners = getBanners();
-            renderBanner('#banner_template','#home_banner',banners);
+            if (banners) {
+                //in this template we only want to show one banner
+                var banner = [banners[0]]
+                renderBanner('#banner_template','#home_banner',banners);
+            }
             
             show_content();
             
