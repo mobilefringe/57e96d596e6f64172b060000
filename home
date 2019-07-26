@@ -116,6 +116,7 @@
                 //in this template we only want to show one banner
                 //wrapping it in array so its easier to render with mustache
                 var banner = [banners[0]]
+                console.log('banner', banner)
                 renderBanner('#banner_template','#home_banner',banner);
             }
             
