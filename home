@@ -114,8 +114,9 @@
             var banners = getBanners();
             if (banners) {
                 //in this template we only want to show one banner
+                //wrapping it in array so its easier to render with mustache
                 var banner = [banners[0]]
-                renderBanner('#banner_template','#home_banner',banners);
+                renderBanner('#banner_template','#home_banner',banner);
             }
             
             show_content();
