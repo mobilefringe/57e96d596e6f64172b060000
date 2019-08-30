@@ -85,8 +85,6 @@
                                     <input class="form-control margin_30" id="question" name="contest[question]" type="text" required data-validation="required" tabindex="9"/>
                                 </div>
                             </div>
-                            
-                            <br>
                             <div class="row">
                                 <div class="col-md-12">
                                     <label class="agree">
@@ -98,11 +96,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    
-                                    <br/><br/>
                                     <button class="contest_btn animated_btn newsletter_btn" tabindex="13">Submit</button>
-                                    <br/><br/>
-                                    <br/><br/>
                                 </div>
                             </div>
                         </form>
