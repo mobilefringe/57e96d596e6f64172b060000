@@ -91,7 +91,7 @@
                                         <input id="newsletter_signup" type="checkbox" name="contest[agree]" required tabindex="11"/> 
                                         Yes, I have read and agree to the <a href="https://www.mallmaverick.com/system/site_images/photos/000/056/929/original/Brock_U_Oweek_Vendor_Day_Scan_to_Win.pdf?1567184839" target="_blank" tabindex="12">Contest Rules & Regulations</a>.
                                     </label>
-                                    <br/><br/>
+                                    // <br/><br/>
                                 </div>
                             </div>
                             <div class="row">
