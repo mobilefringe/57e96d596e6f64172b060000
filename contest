@@ -122,7 +122,9 @@
             var current_contest = [];
             $.each(contests, function(key, val){
                 if (val.slug === "/thepencentre-default-contest") {
-                    current_contest.push(val);
+                    if (val.start_date) {
+                        current_contest.push(val);
+                    }
                 } 
             });
             var slug = current_contest[0].slug;
