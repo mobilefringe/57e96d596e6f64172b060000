@@ -81,7 +81,7 @@
                             </div>
                             <div class="row ">
                                 <div class="col-md-12">
-                                    <label for="question">What is your essential what-have item for BTS? *</label>  
+                                    <label for="question">What is your essential must-have item for Back to School? *</label>  
                                     <input class="form-control margin_30" id="question" name="contest[question]" type="text" required data-validation="required" tabindex="9"/>
                                 </div>
                             </div>
