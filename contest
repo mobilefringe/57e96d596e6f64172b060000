@@ -119,25 +119,25 @@
                     }
                 } 
             });
-            console.log("current_contest", current_contest )
+
             var slug = current_contest[0].slug;
 
             renderContest("#contest_container", '#contest_template', current_contest);
 
             show_content();
             
-            $("#essay").on('keyup', function() {
-                var words = this.value.match(/\S+/g).length;
-                if (words > 500) {
-                    // Split the string on first 500 words and rejoin on spaces
-                    var trimmed = $(this).val().split(/\s+/, 500).join(" ");
-                    // Add a space at the end to keep new typing making new words
-                    $(this).val(trimmed + " ");
-                } else {
-                    $('#display_count').text(words);
-                    $('#word_left').text(500-words);
-                }
-            });
+            // $("#essay").on('keyup', function() {
+            //     var words = this.value.match(/\S+/g).length;
+            //     if (words > 500) {
+            //         // Split the string on first 500 words and rejoin on spaces
+            //         var trimmed = $(this).val().split(/\s+/, 500).join(" ");
+            //         // Add a space at the end to keep new typing making new words
+            //         $(this).val(trimmed + " ");
+            //     } else {
+            //         $('#display_count').text(words);
+            //         $('#word_left').text(500-words);
+            //     }
+            // });
     
             $.validate();
             
@@ -162,11 +162,8 @@
             contest_data.postal_code = $('#postal_code').val();
             contest_data.phone = $('#phone').val();
             contest_data.email = $('#email').val();
-            var question = $('#question').val();
-            var essay = $('#essay').val();
-            var note = charity + ": " + essay
-            contest_data.notes = note
-            contest_data.newsletter = $('#agree').prop("checked");
+            contest_data.notes = $('#question').val();
+            // contest_data.newsletter = $('#agree').prop("checked");
             
             contest_entry.contest = contest_data;
             var propertyDetails = getPropertyDetails();
