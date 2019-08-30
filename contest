@@ -91,14 +91,14 @@
                                 <div class="col-md-12">
                                     <label class="agree">
                                         <input id="newsletter_signup" type="checkbox" name="contest[agree]" required tabindex="11"/> 
-                                        Yes, I have read and agree to the contest rules.
+                                        Yes, I have read and agree to the <a href="https://www.mallmaverick.com/system/site_images/photos/000/056/929/original/Brock_U_Oweek_Vendor_Day_Scan_to_Win.pdf?1567184839" target="_blank" tabindex="12">Contest Rules & Regulations</a>.
                                     </label>
                                     <br/><br/>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a href="https://www.mallmaverick.com/system/site_images/photos/000/041/411/original/Give_Back_Giveaway-Rules-Regulations.pdf?1532724334" target="_blank" tabindex="12">View the Contest Rules & Regulations</a>.
+                                    
                                     <br/><br/>
                                     <button class="contest_btn animated_btn newsletter_btn" tabindex="13">Submit</button>
                                     <br/><br/>
