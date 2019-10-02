@@ -133,6 +133,7 @@
             
             var store_job_ids = store_details.jobs
             console.log(store_job_ids)
+            console.log(store_details)
             
             var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
             var published_jobs = [];
