@@ -101,8 +101,7 @@ function renderStoreDetails(container, template, collection, slug){
         // }
         
         
-        val.map_x_coordinate = val.x_coordinate - 19;
-        val.map_y_coordinate = val.y_coordinate - 58;
+ 
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
