@@ -314,7 +314,7 @@
     
 //         // other browser
 //         return false;
-    }
+    // }
 </script>
 <style>
     html, iframe{
