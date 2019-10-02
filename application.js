@@ -88,33 +88,18 @@ function renderStoreDetails(container, template, collection, slug){
         //     val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1486678177000/pen.png";    
         // }
         
-        if (val.website != null && val.website.length > 0){
-            val.show = "display:block";
-        } else {
-            val.show = "display:none";
-        }
-        
-        if (val.phone != null && val.phone.length > 0){
-            val.phone_show = "display:block";
-        } else {
-            val.phone_show = "display:none";
-        }
-        
-        // if (val.twitter != null && val.twitter.length > 0){
-        //     val.twitter_show = "display:inline-block";
+        // if (val.website != null && val.website.length > 0){
+        //     val.show = "display:block";
         // } else {
-        //     val.twitter_show = "display:none";
+        //     val.show = "display:none";
         // }
         
-        // if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
-        //     val.hide_social = "display:none;";
-        // }
-        
-        // if (val.facebook != null && val.facebook.length > 0){
-        //     val.facebook_show = "display:inline-block";
+        // if (val.phone != null && val.phone.length > 0){
+        //     val.phone_show = "display:block";
         // } else {
-        //     val.facebook_show = "display:none";
+        //     val.phone_show = "display:none";
         // }
+        
         
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
