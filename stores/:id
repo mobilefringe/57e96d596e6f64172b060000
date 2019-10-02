@@ -159,7 +159,7 @@
                e.preventDefault();
                window.location = "/map?store=" + store_details.id;
             });
-            console.log(store_details)
+
         }
 		loadMallDataCached(renderAll); 
     })
