@@ -112,6 +112,8 @@
             store_details = getStoreDetailsBySlug(slug);
             renderStoreDetails("#store_container","#store_template", store_details, slug);
             var store_promo_ids = store_details.promotions
+            console.log(store_promo_ids)
+            
             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
             var published_promos = [];
             $.each( store_promos , function( key, val ){
@@ -130,6 +132,8 @@
             }
             
             var store_job_ids = store_details.jobs
+            console.log(store_job_ids)
+            
             var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
             var published_jobs = [];
             $.each( store_jobs , function( key, val ){
