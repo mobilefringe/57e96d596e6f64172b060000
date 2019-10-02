@@ -101,6 +101,8 @@
 </div>
 
 <script>
+    // revert changes in application.js before launch to production for store_front_url
+
     let store_details = null
     $(document).ready(function(e){
         init(e);
