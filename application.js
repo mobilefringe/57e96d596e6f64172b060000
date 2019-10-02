@@ -82,11 +82,11 @@ function renderStoreDetails(container, template, collection, slug){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if (val.store_front_url != null && val.store_front_url != undefined){
-            val.alt_store_front_url = getImageURL(val.store_front_url); 
-        } else {
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1486678177000/pen.png";    
-        }
+        // if (val.store_front_url != null && val.store_front_url != undefined){
+        //     val.alt_store_front_url = getImageURL(val.store_front_url); 
+        // } else {
+        //     val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1486678177000/pen.png";    
+        // }
         
         if (val.website != null && val.website.length > 0){
             val.show = "display:block";
