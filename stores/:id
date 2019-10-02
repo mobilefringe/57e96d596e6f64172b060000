@@ -145,21 +145,6 @@
                 $('#job_anchor').hide();
             }
             show_content();
-//             var stores = getStoresList();
-//             var regions = {}
-//             $.each( stores , function( key, val ) {
-//                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-//                     obj = {};
-//                     obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>"+val.name+"</p></div>"
-//                     obj["attr"] = {}
-//                     obj["attr"]["href"] = "/stores/"+val.slug
-//                     regions[val.svgmap_region] = obj
-//                 }
-//             });
-//             load_map(regions, store_details);
-//         }
-        
-// 		loadMallDataCached(renderAll); 
                 // Enhanced map code
                 $('#iFrame1').css('display','block')
                 console.log('IE ' + detectIE());
