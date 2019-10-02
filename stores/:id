@@ -155,6 +155,10 @@
                 } else {
                     $('#IE_map').remove();
                 }
+                $('#to_map').click(function(e){
+                   e.preventDefault();
+                   window.location = "/map?store=" + store_details.id;
+                });
             }
     		loadMallDataCached(renderAll); 
         })
