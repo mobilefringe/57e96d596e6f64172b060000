@@ -11,10 +11,10 @@
             <h5><a href="/restaurants">Dining</a></h5>
         </div>
         <div class="col-md-3">
-            <h5 class="active_heading">Centre Map</h5>
+            <h5><a href="/maps">Centre Map</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/pages/thepencentre-what-s-new">What's New</a></h5>
+            <h5 class="active_heading">What's New</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -57,16 +57,13 @@
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
-            console.log("pages_json", pages_json)
-            
             $.getJSON(pages_json).done(function(data) {
                 if (pages_json.indexOf('what-s-new') > -1) {
                     $("#stores").show();
                     $("#default").hide();
                 }
-                    $('.mm_page_title').html(data.title.toUpperCase());
-                    $('#mm_page_content').html(data.body);
-                
+                $('.mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
