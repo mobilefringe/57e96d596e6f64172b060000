@@ -60,7 +60,7 @@
             console.log("pages_json", pages_json)
             
             $.getJSON(pages_json).done(function(data) {
-                if (store_tags.indexOf('what-s-new') > -1){
+                if (pages_json.indexOf('what-s-new') > -1){
                     $("#stores").show();
                     $("#default").hide();
                 }
