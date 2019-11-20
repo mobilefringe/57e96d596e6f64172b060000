@@ -206,7 +206,7 @@
                     </p>
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
                 </div>
-                 <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
                 <div class="col-md-4 col-sm-4 col-xs-4 text-center logo_container">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1480532253000/PenCentre_logo.png" class="main_logo " alt="main_logo">
@@ -232,20 +232,11 @@
     <section class="yield">
         {{yield}}
     </section>
-
-    <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/cushman-wakefield-the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
     <script>
         $("#track_link").click( function() {
             trackOutboundLink('http://bit.ly/cyclone-idai-cushman-wakefield');
         });
     </script>
-    <!--<script>-->
-    <!--    $("#track_link").click( function() {-->
-    <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
-    <!--    });-->
-    <!--</script>-->
-    <!--Retargeting Pixel-->
-    <img src="https://i.simpli.fi/dpx?cid=169850&conversion=40&campaign_id=0&tid=240-000212-009_Pen_Centre_01Nov2018_CT&c=1&sifi_tuid=76241" width="1" height="1" alt="">
 </body>
 
 </html>
