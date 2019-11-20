@@ -100,6 +100,37 @@
     </div>
 </div>
 
+<style>
+    .map-container {
+        margin-bottom: 30px;
+    }
+    #mapsvg_store_detail {
+        margin: 0;
+    }
+    #IE_map {
+        margin:auto;
+        height:400px;
+    }
+    #mobileMap {
+        display:none!important;
+    }
+    #desktopMap {
+        display:block!important;
+    }
+    @media (max-width: 768px) {
+        #iFrame1 {
+            display: none;
+            min-height: 400px;
+        }
+         #mobileMap{
+            display:block!important;
+        }
+        #desktopMap{
+            display:none!important;
+        }
+    }
+</style>
+
 <script>
     let store_details = null
     $(document).ready(function(e){
