@@ -119,6 +119,9 @@
     #desktopMap {
         display:block!important;
     }
+    .map_popover_content a {
+        color: #000 !important;
+    }
     @media (max-width: 768px) {
         #iFrame1 {
             display: none;
