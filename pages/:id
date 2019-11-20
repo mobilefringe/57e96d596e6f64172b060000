@@ -11,7 +11,7 @@
             <h5><a href="/restaurants">Dining</a></h5>
         </div>
         <div class="col-md-3">
-            <h5><a href="/maps">Centre Map</a></h5>
+            <h5><a href="/map">Centre Map</a></h5>
         </div>
         <div class="col-md-3">
             <h5 class="active_heading">What's New</h5>
