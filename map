@@ -4,11 +4,18 @@
     </div>
     <div class="store_list_head main_container">
         <div class="row hidden_phone">
-            <div class="col-md-6">
-                <h5><a href="/stores">Stores</a></h5>
+            <div class="col-md-3">
+                <h5 class="active_heading">Directory</h5>
             </div>
-            <div class="col-md-6">
-                <h5 class="active_heading">Centre Map</h5>
+            <div class="col-md-3">
+                <h5><a href="/restaurants">Dining</a></h5>
+            </div>
+            <div class="col-md-3">
+                <h5><a href="/map">Centre Map</a></h5>
+            </div>
+            
+            <div class="col-md-3">
+                <h5><a href="/pages/thepencentre-what-s-new">What's New</a></h5>
             </div>
         </div>
     </div>
