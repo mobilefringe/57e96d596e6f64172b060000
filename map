@@ -75,141 +75,85 @@
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 
 <script>
-    let store_details = null
     $(document).ready(function(e){
         init(e);
-        function renderAll (){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            store_details = getStoreDetailsBySlug(slug);
-            if(store_details === undefined){
-                window.location = "/";
-            } else {
-                renderStoreDetails("#store_container","#store_template", store_details, slug);
-                
-                //PROMOS
-                var store_promo_ids = store_details.promotions
-                var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
-                var published_promos = [];
-                $.each( store_promos , function( key, val ){
-                    today = moment();
-                    webDate = moment(val.show_on_web_date);
-                    if (today >= webDate) {
-                        published_promos.push(val)
+        function renderPageData(){
+            console.log('IE ' + detectIE());
+            if(detectIE()){
+                var svg_url = '//assets.mallmaverickstaging.com'+getPropertyDetails().svgmap_url;
+                $('#iFrame1').remove();
+                $("#IE_map").attr("src", svg_url)
+                $('#IE_map_text').show();
+            } 
+            else {
+                $('#IE_map').remove();
+                $('#IE_map_text').remove();
+            }
+            var stores = getStoresList();
+            regions = {}
+            $.each( stores , function( key, val ) {
+                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                    if(!val.store_front_url_abs ||  val.store_front_url_abs.indexOf('missing.png') > -1 || val.store_front_url_abs.length === 0){
+                        val.store_front_url_abs = '//codecloud.cdn.speedyrails.net/sites/55ddf3f86e6f640775000000/a22fcf023d728855c6f575ba100806d7/default.jpg'
                     } 
-                });
-                if( published_promos.length > 0){
-                    renderPromotions("#promos_container","#promos_template", published_promos);
-                    $('#promo_anchor span').text(published_promos.length)
-                } else {
-                    $('#promos_main').hide()
-                    $('#promo_anchor').hide()
+                    obj = {};
+                    obj["tooltip"] = "<p class='tooltip_name'>"+val.name+"</p>"
+                    obj["popover"] = "<p class='tooltip_name'>"+val.name+"</p> <a href='/stores/"+val.slug+"'  >View Details</a>"
+                    obj["attr"] = {}
+                    // obj["attr"]["href"] = "/stores/"+val.slug
+                    regions[val.svgmap_region] = obj
                 }
-                
-                // JOBS
-                var store_job_ids = store_details.jobs
-                var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
-                var published_jobs = [];
-                $.each( store_jobs , function( key, val ){
-                    today = moment();
-                    webDate = moment(val.show_on_web_date);
-                    if (today >= webDate) {
-                        published_jobs.push(val)
-                    } 
-                });
-                if( published_jobs.length > 0){
-                    renderJobs('#jobs_container', '#jobs_template', published_jobs);
-                    $('#job_anchor span').text(published_jobs.length)
-                } else {
-                    $('#jobs_main').hide();
-                    $('#job_anchor').hide()
+            });
+            renderStoreList('#stores_container','#stores_template', stores, "A", "Z");
+            show_content();
+            var map = $('#mapsvg_store_detail').mapSvg({
+                source: '//assets.mallmaverickstaging.com'+getPropertyDetails().svgmap_url,
+                colors: {stroke: '#fff', selected: "#D8836C", hover: "#a6a6a6"},
+                disableAll: true,
+                regions: regions,
+                height:1700,
+                width:2300,
+                tooltipsMode:'custom',
+                zoom:true,
+                zoomButtons: {'show': true, 'location': 'left'},
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0,5],
+                onClick: function(e,mapsvg){
+                  var region = this;
+                  mapsvg.marksHide();
+                //   console.log(region);
+                //   drop_pin(region.id,mapsvg)
+                }
+            });
+            
+            $('.map_pin_a').click(function(e){
+                e.preventDefault();
+                var id = $(this).attr('data-svg')
+                map_pin(id)
+            })
+            
+            function map_pin(value){
+                map.marksHide();
+                console.log('value', value)
+                if (value){
+                    drop_pin(value, map);    
                 }
             }
         }
-
-        loadMallDataCached(renderAll);
-        
-        show_content();
-        
-        // Enhanced map code
-        $('#iFrame1').css('display','block')
-        console.log('IE ' + detectIE());
-        if (detectIE()) {
-            var svg_url = '//mallmaverick.com'+getPropertyDetails().svgmap_url;
-            $('#iFrame1').remove();
-            $("#IE_map").attr("src", svg_url)
-        } else {
-            $('#IE_map').remove();
-        }
-        //setup map
-        var stores = getStoresList();
-        regions = {}
-        $.each( stores , function( key, val ) {
-            if (val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined') {
-                if (!val.store_front_url_abs ||  val.store_front_url_abs.indexOf('missing.png') > -1 || val.store_front_url_abs.length === 0) {
-                    val.store_front_url_abs = '//codecloud.cdn.speedyrails.net/sites/55ddf3f86e6f640775000000/a22fcf023d728855c6f575ba100806d7/default.jpg'
-                } 
-                obj = {};
-                obj["tooltip"] = "<p class='tooltip_name'>" + val.name + "</p>"
-                obj["popover"] = "<p class='tooltip_name'>" + val.name + "</p><a href='/stores/" + val.slug + "'>View Details</a>"
-                obj["attr"] = {}
-                regions[val.svgmap_region] = obj
-            }
-        });
-
-        var map = $('#mapsvg_store_detail').mapSvg({
-            source: '//assets.mallmaverickstaging.com' + getPropertyDetails().svgmap_url,
-            colors: {stroke: '#fff', selected: "#D8836C", hover: "#a6a6a6"},
-            disableAll: true,
-            regions: regions,
-            height:1700,
-            width:2300,
-            tooltipsMode:'custom',
-            zoom:true,
-            zoomButtons: {'show': true, 'location': 'left'},
-            pan:true,
-            cursor:'pointer',
-            responsive:true,
-            zoomLimit: [0,5],
-            onClick: function(e,mapsvg){
-                var region = this;
-                mapsvg.marksHide();
-                drop_pin(region.id,mapsvg)
-            }
-        });
-        
-        $('.map_pin_a').click(function(e) {
-            e.preventDefault();
-            var id = $(this).attr('data-svg')
-            map_pin(id)
-        })
-        
-        function map_pin(value) {
-            map.marksHide();
-            if (value) {
-                drop_pin(value, map);    
-            }
-        }
-        drop_pin(store_details.svgmap_region, map)
-    });
     
-    // Enhanced map code
+        loadMallDataCached(renderPageData);
+        
+    });
     window.addEventListener('message', function(event) {
         // IMPORTANT: check the origin of the data! 
-        if (event.origin.startsWith('https://mf-map.netlify.com') && event.data.event === "store-details-clicked") { 
+        if (event.origin.startsWith('https://mf-map.netlify.com')) { 
             // The data was sent from your site.
             // Data sent with postMessage is stored in event.data:
             if(event.data && event.data.selectedStore) {
                 var store = event.data.selectedStore
                 window.location.href= "/stores/"+store.slug
-            }
-        } else if (event.origin.startsWith('https://mf-map.netlify.com') && event.data.event === "map-loaded") {
-            if(event.data) {
-                var loading = event.data.loading;
-                if (!loading){
-                    let frame = document.getElementById('iFrame1');
-                    frame.contentWindow.postMessage({ event: "select-store", selectedStore: store_details }, '*');
-                }
             }
         }
     });
