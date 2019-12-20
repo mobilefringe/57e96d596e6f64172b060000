@@ -27,18 +27,16 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="details_desc">
-
                             <img src="{{alt_store_front_url}}" class="store_logo hidden_phone" alt="{{name}}" />
                             <div class="margin_20">{{{rich_description}}}</div>
                             <div class="map-container"  id="desktopMap">
                                 <div id="mapsvg_store_detail"></div>  
                             </div>
                         	<div id="mobileMap" style="display:none;">
-                            	<iframe src="https://mf-map.netlify.com/map?iframe=true&staging=true&subdomain=thepencentre&hideStoreList=true" frameborder="0" width="100%" height="100%" id="iFrame1" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
+                            	<iframe src="https://mf-map.netlify.com/map?iframe=true&subdomain=thepencentre&hideStoreList=true" frameborder="0" width="100%" height="100%" id="iFrame1" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
                                 <img id="IE_map" src="">
                         	</div>
                         </div>
-                        
                     </div>
                     <div class="col-md-4">
                         <img src="{{alt_store_front_url}}" class="store_logo hidden_phone" alt="{{name}}" />
@@ -225,7 +223,7 @@
         });
 
         var map = $('#mapsvg_store_detail').mapSvg({
-            source: '//assets.mallmaverickstaging.com' + getPropertyDetails().svgmap_url,
+            source: '//assets.mallmaverick.com' + getPropertyDetails().svgmap_url,
             colors: {stroke: '#fff', selected: "#000", hover: "#a6a6a6"},
             disableAll: true,
             regions: regions,
