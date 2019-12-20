@@ -44,7 +44,7 @@
     </div>
 </div>
 <div id="mobileMap" style="text-align:center;display:none;">
-    <iframe src="https://mf-map.netlify.com/map?iframe=true&subdomain=thepencentre&default_zoom=1" frameborder="0" width="100%" height="100%" id="iFrame1" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
+    <iframe src="https://mf-map.netlify.com/map?iframe=true&subdomain=thepencentre&default_zoom=1&recenter_floor_by=35" frameborder="0" width="100%" height="100%" id="iFrame1" sandbox="allow-top-navigation allow-scripts allow-same-origin"></iframe>
     <img id="IE_map" src="">
 </div>
 
