@@ -311,11 +311,7 @@
         </div>
     </section>
     <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/cushman-wakefield-the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
-    <script>
-        $("#track_link").click( function() {
-            trackOutboundLink('http://bit.ly/cyclone-idai-cushman-wakefield');
-        });
-    </script>
+    
     <script>
         $("#track_link").click( function() {
             trackOutboundLink('https://www.wires.org.au/');
