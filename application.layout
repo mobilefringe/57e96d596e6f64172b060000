@@ -323,10 +323,10 @@
         });
     </script>
     <script>
-    $("#track_link").click( function() {
-        trackOutboundLink('https://www.wires.org.au/');
-    });
-</script>
+        $("#track_link").click( function() {
+            trackOutboundLink('https://www.wires.org.au/');
+        });
+    </script>
     <!--Retargeting Pixel-->
     <img src="https://i.simpli.fi/dpx?cid=169850&conversion=40&campaign_id=0&tid=240-000212-009_Pen_Centre_01Nov2018_CT&c=1&sifi_tuid=76241" width="1" height="1" alt="">
 </body>
