@@ -659,10 +659,8 @@ h4{
         background-color: #747474;
     }
 }
-#feature_1 .center_h {
-    color: #000;
-}
- .feature_item figure {
+
+.feature_item figure {
     height: 300px;
     position: relative;
     overflow: hidden;
