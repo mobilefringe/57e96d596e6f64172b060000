@@ -1338,6 +1338,16 @@ h4{
     margin-top:25px;
 }
 
+@media (min-width: 420px to max-width: 767px) {
+    .hours_img_container {
+        .show_phone {
+            display: none;
+        }
+        .tab_ver {
+            display: block;
+        }
+    }
+}
 
 
 @media(max-width: 768px){
