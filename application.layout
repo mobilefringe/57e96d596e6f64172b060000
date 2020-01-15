@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
+    <meta charset="utf-8">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:image" content="{{meta_image}}">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@shopstc" />
+    <meta name="twitter:title" content="{{meta_title}}" />
+    <meta name="twitter:description" content="{{meta_description}}" />
+    <meta name="twitter:image" content="{{meta_image}}" />
+    
+    <title>{{meta_title}}</title>
+    <link rel="shortcut icon" href="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1476732662000/TPC_120x120.png" type="image/x-icon" />
+   
+    <!--CSS-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="//codecloud.cdn.speedyrails.net/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/flexslider.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/scaffold.css" rel="stylesheet">
+    <link href="/application.css" rel="stylesheet">
+    
+    <!--Javascript-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+    <script src="../application.js" type="text/javascript"></script>
+    <script src="../helpers.js" type="text/javascript"></script>
+    
+    <!--MallMaverick SDK-->
+    <script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
+    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+    
+    <script>
+        setEndPoint('//thepencentre.mallmaverick.com/api/v4/thepencentre/all.json');
+        setSocialEndPoint('//thepencentre.mallmaverick.com/api/v2/thepencentre/social.json')
+    </script>
+    <!--<script src=”http://www.google-analytics.com/ga.js”></script>-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       
+        ga('create', 'UA-40014802-44', 'auto');
+        ga('send', 'pageview');
+        var mall_name = "The Pen Centre"
+   </script>
+   <script>
+        /**
+        * Function that tracks a click on an outbound link in Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon'
+            });
+        }
+    </script>
+</head>
+
+<body class="">
+    <script async src='https://tag.simpli.fi/sifitag/fbf0d310-9803-0136-4f23-067f653fa718'></script>
+     <!--Retargeting Pixel Script-->
+    <script async src="https://i.simpli.fi/dpx.js?cid=169850&action=100&segment=240-000212-009_Pen_Centre_01Nov2018_RT&m=1&sifi_tuid=76241"></script>
+    
+    <div class="mobile_menu_container">
+        <div class="opened_mobile_menu">
+            <h3>
+                MENU
+                <span id="close_menu" class="pull-right"><img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179687000/close_menu.png"  alt="close"></span>        
+            </h3>
+            <ul>
+                <li>
+                    <a href="#" class="submenu_expander open">
+                        STORES
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: none;" alt="Open Submenu">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: inline;" alt="Close Submenu">
+                    </a>
+                    <ul class="sub_menu">
+						<li><a href="/stores">Directory</a></li>
+						<li><a href="/restaurants">Restaurants</a></li>
+						<li><a href="/map">Centre Map</a></li>
+						<li><a href="/pages/thepencentre-what-s-new">What's New</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        SPECIAL OFFERS
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;" alt="Open Submenu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;" alt="Close Submenu">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/promotions">Promotions</a></li>
+						<li><a href="/events">Events</a></li>
+						<!--<li><a href="/contest">Contest</a></li>-->
+					</ul>
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        GUEST SERVICES
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;" alt="Open Submenu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;" alt="Close Submenu">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+                        <li><a href="/community">Community</a></li>
+						<li><a href="/accessibility">Accessibility</a></li>
+						<li><a href="/mallwalk">Mall Walk</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        PLAN YOUR VISIT
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;" alt="Open Submenu" >
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;" alt="Close Submenu">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/directions">Directions</a></li>
+						<li><a href="/tourist_info">Tourist Info</a></li>
+						<!--<li><a href="/virtual_tour" >Virtual Tour</a></li>-->
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        CONTACT US
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179667000/open_submenu.png" style="display: inline;" alt="Open Submenu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1466179703000/close_submenu.png" style="display: none;" alt="Close Submenu">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/hours">Shopping Hours</a></li>
+						<li><a href="/contact_us">Contact Us</a></li>
+						<li><a href="/jobs">Jobs</a></li>
+						<li><a href="/leasing">Leasing</a></li>
+						<li><a href="/security">Security</a></li>
+						<li><a href="	/pages/thepencentre-donation-sponsorship--2">Donation/Sponsorship</a></li>
+					</ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="fixed_header">
+        <section class="content_container main_container position_relative">
+            <div class="row header mobile_margin">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+        <!--            <div id="google_translate_element"></div>-->
+        <!--            <script type="text/javascript">-->
+        <!--                function googleTranslateElementInit() {-->
+        <!--                  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,it,zh-CN,zh-TW,ko,ar,hi,ha', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');-->
+        <!--}-->
+        <!--            </script>-->
+        <!--            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ar,fr,ha,hi,it,ko,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-40014802-44'}, 'google_translate_element');
+                        }
+                        /*!
+                         * Capture Analytics for Google Translate
+                         * As of 2016, the Google Translate toolbar still only works with the old-style analytics (ga.js)
+                         * The code below mocks the old analytics object, captures the events and passes them to the new Universal Analytics (analytics.js)
+                         *
+                         * Source: http://webmasters.stackexchange.com/a/101787/18749
+                         * Copyright (c) Simon East 2016, for yump.com.au
+                         * Free to use under MIT licence <https://opensource.org/licenses/MIT>
+                         */
+                        window._gaq = {}; window._gat = {};
+                        window._gat._getTracker = window._gat._getTrackerByName = function(){ return {
+                          _trackEvent: function(eventCategory, eventAction, eventLabel) {
+                            // [0] will send the event to the first analytics ID on the page (in case you have multiple)
+                            if (window.ga && ga.getAll()[0]) {
+                              ga.getAll()[0].send('event', eventCategory, eventAction, eventLabel);
+                              window.console && console.log('Translation event sent to Google Analytics:', eventCategory, eventAction, eventLabel);
+                            } else {
+                              window.console && console.warn('Could not locate Google Analytics when attempting to log translation events.')
+                            }
+                          }
+                        }}
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    
+                    <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
+                        Today's Hours:
+                        <span id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
+                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
+                </div>
+                 <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-center logo_container">
+                    <a href="/">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1480532253000/PenCentre_logo.png" class="main_logo " alt="main_logo">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-right position_relative">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
+                </div>
+                <div class="col-xs-12 show_phone home_hours_phone">
+                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: 
+                        <span id="home_hours_container3">
+                            <script id="home_hours_template3" type="x-tmpl-mustache/text">
+                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
+                    <a class="holiday_hours_home" href="/hours">Check for Holiday Hours</a>
+                </div>
+            </div>
+            <div class="hedaer_divider"></div>
+        </section>
+    </div>
+    <section class="yield">
+        {{yield}}
+    </section>
+
+    <section class="content_container main_container">
+        <div class="newsletter_container text-center">
+            <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
+            <p class="newsletter_desc"><span>•</span> Fashion <br class="show_phone" /><span>•</span> Events  <br class="show_phone" /><span>•</span> Sales </p>
+            <a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>
+        </div>
+        <div class="trim_screen">
+            <a id="track_link" href="https://www.wires.org.au/" target="_blank">
+                <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5e1f35506e6f645fa6260000/image/jpeg/1578946050000/940x500.jpg" alt=""/>
+            </a>
+        </div>
+        <div class="site_map">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="">
+                        <h3 class="site_map_heading">SOCIAL</h3>
+                        <p class="site_map_desc">
+                            Follow us on social for <br />activities and news
+                        </p>
+                        <div class="social_icons">
+                            <a href="https://www.facebook.com/thepencentre?sk=wall" target="_blank">
+                                <span id="social_fb"></span>
+                                <p>Facebook</p>
+                            </a>
+                            <a href="https://twitter.com/thepencentre" target="_blank">
+                                <span id="social_twitter"></span>
+                                <p>Twitter</p>
+                            </a>
+                            <a href="https://www.instagram.com/thepencentre/" target="_blank">
+                                <span id="social_insta"></span>
+                                <p>Instagram</p>
+                            </a>
+                            
+                            <div class="clearfix"></div>
+                            <br class="hidden_phone" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 left_right_border">
+                    <h3 class="site_map_heading">SITE MAP</h3>
+                    <div class="row footer_site_map">
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Centre Map</a></li>
+                                <li class="news_link"><a href="/news">The Latest</a></li>
+                                <li><a href="/promotions">Promotions</a></li>
+                                <li><a href="/events">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/pages/thepencentre-centre-services">Guest Services</a></li>
+                                <li><a href="/hours">Shopping Hours</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
+                                <li><a href="/jobs">Jobs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="site_map_heading">©<span id="current_year"></span> - THE PEN CENTRE</h3>
+                    <p class="rights_reserved">
+                        <a href="https://www.google.ca/maps/place/The+Pen+Centre/@43.1362541,-79.2248803,15z/data=!4m2!3m1!1s0x0:0x1a360763bccd35c2?sa=X&ved=0ahUKEwirjp-5y-LPAhVspIMKHTXNCPQQ_BIIhgEwFA" target="_blank">
+                            221 Glendale Ave, St. Catharines, ON <br /> L2T 2K9
+                        </a>
+                        <br />
+                        Administration: <a href="tel:9056876622">905.687.6622</a><br />
+                        <a href="http://www.cushmanwakefield.ca/en/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/599dd0b36e6f6420a7420000/image/png/1509381758000/CW Logos-_CW_Colorlogo.png" class="" alt="Cushman and Wakefield Logo" style="width:140px;padding-top: 10px;"></a>
+                    </p>
+                    <p class="rights_reserved">
+                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a class="chat_link" href="#" onclick="window.open('https://secure.kipsu.com/acct/guestchat/cushman-wakefield-the-pen-centre/guest-chat-page', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is Pen Centre Guest Services.  How can we help?</a>
+    
+    <script>
+        $("#track_link").click( function() {
+            trackOutboundLink('https://www.wires.org.au/');
+        });
+    </script>
+    <!--Retargeting Pixel-->
+    <img src="https://i.simpli.fi/dpx?cid=169850&conversion=40&campaign_id=0&tid=240-000212-009_Pen_Centre_01Nov2018_CT&c=1&sifi_tuid=76241" width="1" height="1" alt="">
+</body>
+
+</html>
