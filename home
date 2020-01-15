@@ -19,7 +19,7 @@
                     <!--<a href="/hours" class="show_phone">-->
                     <!--    <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/jpeg/1464118541000/hsc_hours.jpg" class="" alt="hours">-->
                     <!--</a>-->
-                    <a href="/hours" class=" hidden_phone social_box text-center hours_box" id="hours_box">
+                    <a href="/hours" class=" social_box text-center hours_box" id="hours_box">
                         <img src="//codecloud.cdn.speedyrails.net/sites/58de679b6e6f647f21030000/image/png/1463772189000/hours.png" class="" alt="regular hours">
                         <div id="home_hours_container2" class="home_feature_hours">
                             <script id="home_hours_template2" type="x-tmpl-mustache/text">
