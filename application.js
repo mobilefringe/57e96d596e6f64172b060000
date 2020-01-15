@@ -640,11 +640,17 @@ function renderFeatureItems(){
     var items = getFeatureList();
     console.log(items)
     $.each(items, function(i, val){
+        // if name and url
         if (val.name === "") {
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="Feature Item"></a>')
-        } else {
+        } 
+        // if url only 
+        else {
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
         }
+        // else if (val.url == "") {
+        //     $('#feature_' + i).html('<img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5>')
+        // }
     })
 }
 
