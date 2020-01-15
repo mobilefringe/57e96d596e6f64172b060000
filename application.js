@@ -638,7 +638,6 @@ function renderPosts(container, template, collection){
 
 function renderFeatureItems(){
     var items = getFeatureList();
-    console.log(items)
     $.each(items, function(i, val){
         if (val.name === "") {
             $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="Feature Item"></a>')
