@@ -910,11 +910,7 @@ h4{
     }
 }
 
-.hours_img_container {
-    .show_tablet {
-        display: none;
-    }
-}
+
 
 .hours_div{
     display: table-row;
@@ -1354,12 +1350,6 @@ h4{
     }
     .feature_item img:hover{
         transform: scale(1);
-    }
-    
-    .hours_img_container {
-        .show_tablet {
-            display: block;
-        }
     }
     
     .store_list_head h5, .store_list_head a{
@@ -1912,11 +1902,7 @@ h4{
         
     }
     
-    .hours_img_container {
-        .show_tablet {
-            display: none;
-        }
-    }
+
     
     .feature_items_box{
         margin-top:-100px;
