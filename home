@@ -16,11 +16,11 @@
                 <div id="feature_0" class="position_relative"></div>
                 <div id="feature_1" class="position_relative"></div>
                 <div class="hours_img_container">
-                    <a href="/hours" class="show_phone">
+                    <a href="/hours" class="show_phone phone_ver">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5e1f35506e6f645fa6260000/image/png/1579110659000/MobileHrs.png" class="" alt="hours">
                     </a>
                     
-                    <a href="/hours" class="hidden_phone show_tablet">
+                    <a href="/hours" class="hidden_phone tab_ver">
                         <img src="//codecloud.cdn.speedyrails.net/sites/5e1f35506e6f645fa6260000/image/png/1579109993000/TabletHours.png" class="" alt="hours">
                     </a>
                     
