@@ -79,12 +79,12 @@
                                     <input class="form-control margin_30" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="4"/>
                                 </div>
                             </div>
-                            <div class="row ">
-                                <div class="col-md-12">
-                                    <label for="question">What is your essential must-have item for Back to School? *</label>  
-                                    <input class="form-control margin_30" id="question" name="contest[question]" type="text" required data-validation="required" tabindex="9"/>
-                                </div>
-                            </div>
+                            // <div class="row ">
+                            //     <div class="col-md-12">
+                            //         <label for="question">What is your essential must-have item for Back to School? *</label>  
+                            //         <input class="form-control margin_30" id="question" name="contest[question]" type="text" required data-validation="required" tabindex="9"/>
+                            //     </div>
+                            // </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <label class="agree">
