@@ -85,7 +85,6 @@
                                         <input id="newsletter_signup" type="checkbox" name="contest[agree]" required/> 
                                         Yes, I have read and agree to the <a href="/pages/thepencentre-contest-rules-regulations" target="_blank">Contest Rules & Regulations</a>.
                                     </label>
-                                
                                 </div>
                             </div>
                             <div class="row">
