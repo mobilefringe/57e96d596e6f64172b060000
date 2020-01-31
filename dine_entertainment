@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>s
 </div>
 <script id="store_list_template" type="x-tmpl-mustache/text">
     <div class="store_list_content cats_row" data-cat="{{cat_list}}">
@@ -91,7 +91,7 @@
             var stores1 = getStoresListByCategoryID(1515);
             var stores2 = getStoresListByCategoryID(1532);
 
-            var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
+            var stores = stores1.concat(stores3).concat(stores2).sortBy(function(o){ return o.name});
             var newStoreList = _.uniq(stores, function(o){ return o.name; });
 
 
