@@ -1,6 +1,6 @@
 <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 <div class="main_banner text-center">
-    <h3>Restaurants</h3>
+    <h3>Entertainment & Dining</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container ">
@@ -65,8 +65,10 @@
                 
                 <div id="category_container" class="hidden_phone">
                     <h5 class="category_name active_cat"><a href="#" class="show_all_stores">All</a></h5>
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1532">Entertainment</a></h5>
                     <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1514">Fast Food &amp; Specialty Food</a></h5>
                     <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="1515">Restaurants</a></h5>
+                    
                  
                 </div>
             </div>
@@ -87,6 +89,7 @@
             var categories = getStoreCategories();
             var stores3 = getStoresListByCategoryID(1514);
             var stores1 = getStoresListByCategoryID(1515);
+            var stores2 = getStoresListByCategoryID(1532);
 
             var stores = stores1.concat(stores3).sortBy(function(o){ return o.name});
             var newStoreList = _.uniq(stores, function(o){ return o.name; });
