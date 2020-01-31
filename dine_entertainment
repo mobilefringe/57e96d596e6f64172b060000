@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-    </div>s
+    </div>
 </div>
 <script id="store_list_template" type="x-tmpl-mustache/text">
     <div class="store_list_content cats_row" data-cat="{{cat_list}}">
