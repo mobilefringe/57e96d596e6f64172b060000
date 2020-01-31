@@ -95,8 +95,8 @@
             var newStoreList = _.uniq(stores, function(o){ return o.name; });
 
 
-            renderStoreList('#store_list_container','#store_list_template', newStoreList, "A", "M");
-            renderStoreList('#store_list_container2','#store_list_template', newStoreList, "N", "Z");
+            renderStoreList('#store_list_container','#store_list_template', newStoreList, "A", "L");
+            renderStoreList('#store_list_container2','#store_list_template', newStoreList, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', newStoreList, "A", "Z");
             show_cat_stores();
             
