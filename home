@@ -4,11 +4,23 @@
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
-<div class="hero_banner text-center">
-    <h3><strong>Find YOUR Everything</strong></h3>
-    <p>AT NIAGARA'S LARGEST INDOOR SHOPPING CENTRE</p>
-    <a class="animated_btn" href="/stores">visit our stores</a>
+<div class="text-center">
+    <div id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
+                <div class="hero_banner" style="background-image: url({{image_url}})">
+                    <h3><strong>Find YOUR Everything</strong></h3>
+                    <a class="animated_btn" href="/stores">visit our stores</a>
+                </div>
+            </a>
+        </script>
+    </div>
 </div>
+<!--<div class="hero_banner text-center">-->
+<!--    <h3><strong>Find YOUR Everything</strong></h3>-->
+<!--    <p>AT NIAGARA'S LARGEST INDOOR SHOPPING CENTRE</p>-->
+<!--    <a class="animated_btn" href="/stores">visit our stores</a>-->
+<!--</div>-->
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
@@ -66,6 +78,10 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            var banners = getBanners();
+            var first_banner = banners[0];
+            renderBanner('#banner_template','#home_banner',banners);
+            
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
