@@ -10,6 +10,7 @@
             {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                 <div class="hero_banner" style="background-image: url({{image_url}})">
                     <h3><strong>Find YOUR Everything</strong></h3>
+                    <p>AT NIAGARA'S LARGEST INDOOR SHOPPING CENTRE</p>
                     <a class="animated_btn" href="/stores">visit our stores</a>
                 </div>
             </a>
