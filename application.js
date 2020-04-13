@@ -14,6 +14,7 @@ function renderBanner(banner_template,home_banner,banners){
            val.noLink = "return false";
         }
         if (start <= today){
+            
             if (val.end_date){
                 end = new Date (val.end_date);
                 end.setDate(end.getDate() + 1);
@@ -25,6 +26,7 @@ function renderBanner(banner_template,home_banner,banners){
             }
         }
     });
+    console.log("list", item_list)
 
     $.each( item_list , function( key, val ) {
         var repo_rendered = Mustache.render(banner_template_html,val);
