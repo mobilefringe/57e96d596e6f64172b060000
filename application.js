@@ -7,9 +7,9 @@ function renderBanner(banner_template,home_banner,banners){
     $.each( banners , function( key, val ) {
         today = new Date();
         start = new Date (val.start_date);
-       
+       console.log("start", start)
         start.setDate(start.getDate());
-        if(val.url == "" || val.url === null){
+        if(val.url === "" || val.url === null){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
         }
