@@ -22,7 +22,7 @@ function renderBanner(banner_template,home_banner,banners){
         //             item_list.push(val);  
         //         }
         //     } else {
-        //         item_list.push(val);
+                item_list.push(val);
         //     }
         // }
     });
