@@ -76,9 +76,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            console.log("banners", banners)
             var first_banner = banners[0];
-            console.log("first_banner", first_banner)
             renderBanner('#banner_template','#home_banner', banners);
             
             loadSocialFeeds(render_social)
