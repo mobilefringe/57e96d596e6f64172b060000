@@ -77,7 +77,8 @@
         function renderAll(){
             var banners = getBanners();
             var first_banner = banners[0];
-            renderBanner('#banner_template','#home_banner',banners);
+            console.log("first_banner", first_banner)
+            renderBanner('#banner_template','#home_banner', banners);
             
             loadSocialFeeds(render_social)
             renderFeatureItems();
